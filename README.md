@@ -1,5 +1,5 @@
 # Heartbeat_device
-========================================
+
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
    <td><img src="Images/Pulse_1.png" alt="Pulse_1 Image" width="300"></td>
