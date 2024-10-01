@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESPulse-rescue")(type "Legacy")(uri "${KIPRJMOD}/SIngle_channel-rescue.lib")(options "")(descr ""))
+)

@@ -1,0 +1,6643 @@
+(export 
+  (version D) 
+  (design 
+    (source C:\Users\Luis\Documents\Kicad_Database\cibio\ESPulse\trunk\ESPulse.sch) 
+    (date "13/06/2022 18:11:13") 
+    (tool "Eeschema (5.1.6)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source SIngle_channel.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value "")))) 
+    (sheet 
+      (number 2) 
+      (name /TFT/) 
+      (tstamps /62410E5A/) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source TFT.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value "")))) 
+    (sheet 
+      (number 3) 
+      (name /HeartBeat/) 
+      (tstamps /59DE1E31/) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source HeartBeat.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value "")))) 
+    (sheet 
+      (number 4) 
+      (name /SD_RTC/) 
+      (tstamps /62A21771/) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source RTC.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref C5) 
+      (value 0.1uF) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C8914)) 
+    (comp 
+      (ref R1) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C8970)) 
+    (comp 
+      (ref C2) 
+      (value 0.1uF) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C8976)) 
+    (comp 
+      (ref SW1) 
+      (value RST) 
+      (footprint lsts-discretes:EVQP2) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part SW_PUSH-lsts-devices) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C8988)) 
+    (comp 
+      (ref R2) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C899A)) 
+    (comp 
+      (ref C3) 
+      (value 0.1uF) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C89A0)) 
+    (comp 
+      (ref SW2) 
+      (value BOOT) 
+      (footprint lsts-discretes:EVQP2) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part SW_PUSH-lsts-devices) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C89B1)) 
+    (comp 
+      (ref C1) 
+      (value 0.1uF) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C8A0B)) 
+    (comp 
+      (ref P1) 
+      (value FTDI-TTL-232R) 
+      (footprint lsts-conn:PIN_ARRAY_6x1) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part FTDI-TTL-232R-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C8A26)) 
+    (comp 
+      (ref R33) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C8A6F)) 
+    (comp 
+      (ref R34) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624C8A69)) 
+    (comp 
+      (ref 3.3vReg1) 
+      (value REG_Recom) 
+      (footprint lsts-devices:R-78HBxxx-0.5) 
+      (datasheet P7803-2000-S) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part REG_Recom-lsts-regul) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 623C4966)) 
+    (comp 
+      (ref C6) 
+      (value 22μF/50V) 
+      (footprint lsts-passives:CP_Elec_6.3x5.8) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 623C5890)) 
+    (comp 
+      (ref C9) 
+      (value 22μF/10V) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 623C6041)) 
+    (comp 
+      (ref SW4) 
+      (value "Forward SW") 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part SW_PUSH-lsts-devices) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 624340A2)) 
+    (comp 
+      (ref R27) 
+      (value 100k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62434713)) 
+    (comp 
+      (ref C11) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62439B73)) 
+    (comp 
+      (ref SW3) 
+      (value "Backward SW") 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part SW_PUSH-lsts-devices) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62461D92)) 
+    (comp 
+      (ref R26) 
+      (value 100k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62461D98)) 
+    (comp 
+      (ref C10) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62461D9F)) 
+    (comp 
+      (ref U3) 
+      (value ESP32-WROOM-32D) 
+      (footprint lsts-devices:ESP32-WROOM-32) 
+      (datasheet https://www.espressif.com/sites/default/files/documentation/esp_wroom_32d_esp-wroom-32u_datasheet_en.pdf) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ESP32-WROOM-32D-lsts-devices) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 625918BF)) 
+    (comp 
+      (ref P2) 
+      (value "12V Input") 
+      (footprint lsts-conn:JST-2x1HM) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_2x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 628C3F30)) 
+    (comp 
+      (ref C17) 
+      (value 22μF/10V) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6290DD72)) 
+    (comp 
+      (ref 5vReg1) 
+      (value GEN_REGULATOR) 
+      (footprint lsts-devices:R-78HBxxx-0.5) 
+      (datasheet P7805-2000-S) 
+      (libsource 
+        (lib lsts-regul) 
+        (part GEN_REGULATOR) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 628BF453)) 
+    (comp 
+      (ref P20) 
+      (value CONN_1x1) 
+      (footprint omst-alex:MNT-HOLE-3mm1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x1) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6308B214)) 
+    (comp 
+      (ref P21) 
+      (value CONN_1x1) 
+      (footprint omst-alex:MNT-HOLE-3mm1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x1) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6308B4E5)) 
+    (comp 
+      (ref P24) 
+      (value CONN_1x1) 
+      (footprint omst-alex:MNT-HOLE-3mm1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x1) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6308B637)) 
+    (comp 
+      (ref P25) 
+      (value CONN_1x1) 
+      (footprint omst-alex:MNT-HOLE-3mm1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x1) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6308B881)) 
+    (comp 
+      (ref C4) 
+      (value 22μF/10V) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62A31E07)) 
+    (comp 
+      (ref P4) 
+      (value CONN_8x1) 
+      (footprint Footprints_Luis:TFT_8Pin_1.27) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_8x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /TFT/) 
+        (tstamps /62410E5A/)) 
+      (tstamp 629813C0)) 
+    (comp 
+      (ref P11) 
+      (value HB1) 
+      (footprint lsts-conn:JST-3x1HM) 
+      (fields 
+        (field 
+          (name manf#) NA)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_3x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 59E084E3)) 
+    (comp 
+      (ref R9) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE10470RL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5E8F6736)) 
+    (comp 
+      (ref D3) 
+      (value ZENER_1.8V) 
+      (footprint lsts-discretes:SOD-123-AC) 
+      (fields 
+        (field 
+          (name manf#) BZT52C2V0-7-F)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ZENER-lsts-discrete) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5E8F673C)) 
+    (comp 
+      (ref R21) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5E96D868)) 
+    (comp 
+      (ref C16) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5E9B0C65)) 
+    (comp 
+      (ref R17) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5E954287)) 
+    (comp 
+      (ref R13) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5E940F73)) 
+    (comp 
+      (ref C12) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5E938BF0)) 
+    (comp 
+      (ref C21) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5EA0FBB9)) 
+    (comp 
+      (ref R36) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5EA0FBB3)) 
+    (comp 
+      (ref R45) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5EAA95F2)) 
+    (comp 
+      (ref C25) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5EAA95F9)) 
+    (comp 
+      (ref R41) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5EAA960A)) 
+    (comp 
+      (ref U6) 
+      (value OPAMP_QUAD) 
+      (footprint lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm) 
+      (fields 
+        (field 
+          (name manf#) MCP6004-I/SL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part OPAMP_QUAD-lsts-ic) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5EB684BA)) 
+    (comp 
+      (ref R38) 
+      (value 100R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F120R)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5EF422F8)) 
+    (comp 
+      (ref R5) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 5E9A7128)) 
+    (comp 
+      (ref P14) 
+      (value HB2) 
+      (footprint lsts-conn:JST-3x1HM) 
+      (fields 
+        (field 
+          (name manf#) NA)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_3x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A968)) 
+    (comp 
+      (ref R61) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE10470RL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A979)) 
+    (comp 
+      (ref D7) 
+      (value ZENER_1.8V) 
+      (footprint lsts-discretes:SOD-123-AC) 
+      (fields 
+        (field 
+          (name manf#) BZT52C2V0-7-F)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ZENER-lsts-discrete) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A980)) 
+    (comp 
+      (ref R73) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A98E)) 
+    (comp 
+      (ref C33) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A996)) 
+    (comp 
+      (ref R69) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A9BE)) 
+    (comp 
+      (ref R65) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A9C6)) 
+    (comp 
+      (ref C29) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A9CD)) 
+    (comp 
+      (ref R85) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A9DB)) 
+    (comp 
+      (ref R93) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A9EF)) 
+    (comp 
+      (ref C41) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A9F7)) 
+    (comp 
+      (ref R89) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234AA09)) 
+    (comp 
+      (ref U12) 
+      (value OPAMP_QUAD) 
+      (footprint lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm) 
+      (fields 
+        (field 
+          (name manf#) MCP6004-I/SL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part OPAMP_QUAD-lsts-ic) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234AA1B)) 
+    (comp 
+      (ref R77) 
+      (value 100R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F120R)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234AA22)) 
+    (comp 
+      (ref R57) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234AA2B)) 
+    (comp 
+      (ref R10) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE10470RL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6237323E)) 
+    (comp 
+      (ref D4) 
+      (value ZENER_1.8V) 
+      (footprint lsts-discretes:SOD-123-AC) 
+      (fields 
+        (field 
+          (name manf#) BZT52C2V0-7-F)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ZENER-lsts-discrete) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62373245)) 
+    (comp 
+      (ref R22) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62373253)) 
+    (comp 
+      (ref C18) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6237325B)) 
+    (comp 
+      (ref R18) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62373283)) 
+    (comp 
+      (ref R14) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6237328B)) 
+    (comp 
+      (ref C13) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62373292)) 
+    (comp 
+      (ref C22) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62373299)) 
+    (comp 
+      (ref R37) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623732A0)) 
+    (comp 
+      (ref R46) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623732B4)) 
+    (comp 
+      (ref C26) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623732BC)) 
+    (comp 
+      (ref R42) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623732CE)) 
+    (comp 
+      (ref U5) 
+      (value OPAMP_QUAD) 
+      (footprint lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm) 
+      (fields 
+        (field 
+          (name manf#) MCP6004-I/SL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part OPAMP_QUAD-lsts-ic) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623732E0)) 
+    (comp 
+      (ref R6) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623732F0)) 
+    (comp 
+      (ref P15) 
+      (value HB4) 
+      (footprint lsts-conn:JST-3x1HM) 
+      (fields 
+        (field 
+          (name manf#) NA)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_3x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6237337B)) 
+    (comp 
+      (ref R62) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE10470RL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6237338C)) 
+    (comp 
+      (ref D8) 
+      (value ZENER_1.8V) 
+      (footprint lsts-discretes:SOD-123-AC) 
+      (fields 
+        (field 
+          (name manf#) BZT52C2V0-7-F)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ZENER-lsts-discrete) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62373393)) 
+    (comp 
+      (ref R74) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623733A1)) 
+    (comp 
+      (ref C34) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623733A9)) 
+    (comp 
+      (ref R70) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623733D1)) 
+    (comp 
+      (ref R66) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623733D9)) 
+    (comp 
+      (ref C30) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623733E0)) 
+    (comp 
+      (ref C38) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623733E7)) 
+    (comp 
+      (ref R86) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623733EE)) 
+    (comp 
+      (ref R94) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62373402)) 
+    (comp 
+      (ref C42) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6237340A)) 
+    (comp 
+      (ref R90) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6237341C)) 
+    (comp 
+      (ref U11) 
+      (value OPAMP_QUAD) 
+      (footprint lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm) 
+      (fields 
+        (field 
+          (name manf#) MCP6004-I/SL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part OPAMP_QUAD-lsts-ic) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6237342E)) 
+    (comp 
+      (ref R58) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6237343E)) 
+    (comp 
+      (ref P3) 
+      (value HB6) 
+      (footprint lsts-conn:JST-3x1HM) 
+      (fields 
+        (field 
+          (name manf#) NA)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_3x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9B84)) 
+    (comp 
+      (ref R7) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE10470RL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9B95)) 
+    (comp 
+      (ref D1) 
+      (value ZENER_1.8V) 
+      (footprint lsts-discretes:SOD-123-AC) 
+      (fields 
+        (field 
+          (name manf#) BZT52C2V0-7-F)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ZENER-lsts-discrete) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9B9C)) 
+    (comp 
+      (ref R19) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9BAA)) 
+    (comp 
+      (ref C14) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9BB2)) 
+    (comp 
+      (ref R15) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9BDA)) 
+    (comp 
+      (ref R11) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9BE2)) 
+    (comp 
+      (ref C7) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9BE9)) 
+    (comp 
+      (ref C19) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9BF0)) 
+    (comp 
+      (ref R32) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9BF7)) 
+    (comp 
+      (ref R43) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9C0B)) 
+    (comp 
+      (ref C23) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9C13)) 
+    (comp 
+      (ref R39) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9C25)) 
+    (comp 
+      (ref U10) 
+      (value OPAMP_QUAD) 
+      (footprint lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm) 
+      (fields 
+        (field 
+          (name manf#) MCP6004-I/SL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part OPAMP_QUAD-lsts-ic) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9C37)) 
+    (comp 
+      (ref R23) 
+      (value 100R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F120R)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9C3E)) 
+    (comp 
+      (ref R3) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9C47)) 
+    (comp 
+      (ref P12) 
+      (value HB7) 
+      (footprint lsts-conn:JST-3x1HM) 
+      (fields 
+        (field 
+          (name manf#) NA)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_3x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9CD2)) 
+    (comp 
+      (ref R59) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE10470RL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9CE3)) 
+    (comp 
+      (ref D5) 
+      (value ZENER_1.8V) 
+      (footprint lsts-discretes:SOD-123-AC) 
+      (fields 
+        (field 
+          (name manf#) BZT52C2V0-7-F)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ZENER-lsts-discrete) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9CEA)) 
+    (comp 
+      (ref R71) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9CF8)) 
+    (comp 
+      (ref C31) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D00)) 
+    (comp 
+      (ref R67) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D28)) 
+    (comp 
+      (ref R63) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D30)) 
+    (comp 
+      (ref C27) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D37)) 
+    (comp 
+      (ref C35) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D3E)) 
+    (comp 
+      (ref R83) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D45)) 
+    (comp 
+      (ref R91) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D59)) 
+    (comp 
+      (ref C39) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D61)) 
+    (comp 
+      (ref R87) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D73)) 
+    (comp 
+      (ref U13) 
+      (value OPAMP_QUAD) 
+      (footprint lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm) 
+      (fields 
+        (field 
+          (name manf#) MCP6004-I/SL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part OPAMP_QUAD-lsts-ic) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D85)) 
+    (comp 
+      (ref R75) 
+      (value 100R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F120R)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D8C)) 
+    (comp 
+      (ref R55) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9D95)) 
+    (comp 
+      (ref P5) 
+      (value HB8) 
+      (footprint lsts-conn:JST-3x1HM) 
+      (fields 
+        (field 
+          (name manf#) NA)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_3x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9E20)) 
+    (comp 
+      (ref R8) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE10470RL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9E31)) 
+    (comp 
+      (ref D2) 
+      (value ZENER_1.8V) 
+      (footprint lsts-discretes:SOD-123-AC) 
+      (fields 
+        (field 
+          (name manf#) BZT52C2V0-7-F)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ZENER-lsts-discrete) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9E38)) 
+    (comp 
+      (ref R20) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9E46)) 
+    (comp 
+      (ref C15) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9E4E)) 
+    (comp 
+      (ref R16) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9E76)) 
+    (comp 
+      (ref R12) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9E7E)) 
+    (comp 
+      (ref C8) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9E85)) 
+    (comp 
+      (ref C20) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9E8C)) 
+    (comp 
+      (ref R35) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9E93)) 
+    (comp 
+      (ref R44) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9EA7)) 
+    (comp 
+      (ref C24) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9EAF)) 
+    (comp 
+      (ref R40) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9EC1)) 
+    (comp 
+      (ref U15) 
+      (value OPAMP_QUAD) 
+      (footprint lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm) 
+      (fields 
+        (field 
+          (name manf#) MCP6004-I/SL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part OPAMP_QUAD-lsts-ic) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9ED3)) 
+    (comp 
+      (ref R24) 
+      (value 100R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F120R)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9EDA)) 
+    (comp 
+      (ref R4) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9EE3)) 
+    (comp 
+      (ref P13) 
+      (value HB9) 
+      (footprint lsts-conn:JST-3x1HM) 
+      (fields 
+        (field 
+          (name manf#) NA)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_3x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9F6E)) 
+    (comp 
+      (ref R60) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE10470RL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9F7F)) 
+    (comp 
+      (ref D6) 
+      (value ZENER_1.8V) 
+      (footprint lsts-discretes:SOD-123-AC) 
+      (fields 
+        (field 
+          (name manf#) BZT52C2V0-7-F)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ZENER-lsts-discrete) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9F86)) 
+    (comp 
+      (ref R72) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9F94)) 
+    (comp 
+      (ref C32) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9F9C)) 
+    (comp 
+      (ref R68) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9FC4)) 
+    (comp 
+      (ref R64) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9FCC)) 
+    (comp 
+      (ref C28) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9FD3)) 
+    (comp 
+      (ref C36) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9FDA)) 
+    (comp 
+      (ref R84) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9FE1)) 
+    (comp 
+      (ref R92) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9FF5)) 
+    (comp 
+      (ref C40) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623F9FFD)) 
+    (comp 
+      (ref R88) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623FA00F)) 
+    (comp 
+      (ref U14) 
+      (value OPAMP_QUAD) 
+      (footprint lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm) 
+      (fields 
+        (field 
+          (name manf#) MCP6004-I/SL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part OPAMP_QUAD-lsts-ic) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623FA021)) 
+    (comp 
+      (ref R76) 
+      (value 100R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F120R)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623FA028)) 
+    (comp 
+      (ref R56) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623FA031)) 
+    (comp 
+      (ref R31) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6178BFBC)) 
+    (comp 
+      (ref R30) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 629F5F19)) 
+    (comp 
+      (ref R29) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A5ABD6)) 
+    (comp 
+      (ref R28) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62AC083A)) 
+    (comp 
+      (ref R80) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62B8EC9F)) 
+    (comp 
+      (ref R82) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62BF7005)) 
+    (comp 
+      (ref R81) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62C5FFBC)) 
+    (comp 
+      (ref R25) 
+      (value 100R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F120R)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 623732E7)) 
+    (comp 
+      (ref P6) 
+      (value HB3) 
+      (footprint lsts-conn:JST-3x1HM) 
+      (fields 
+        (field 
+          (name manf#) NA)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_3x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6237322D)) 
+    (comp 
+      (ref C37) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6234A9D4)) 
+    (comp 
+      (ref R79) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62B2748E)) 
+    (comp 
+      (ref R78) 
+      (value 100R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F120R)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62373435)) 
+    (comp 
+      (ref R99) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62F78A8B)) 
+    (comp 
+      (ref R100) 
+      (value 18k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6308254C)) 
+    (comp 
+      (ref R101) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6318C0D8)) 
+    (comp 
+      (ref R102) 
+      (value 18k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6318C0DE)) 
+    (comp 
+      (ref R95) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 631E6D77)) 
+    (comp 
+      (ref R96) 
+      (value 18k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 631E6D7D)) 
+    (comp 
+      (ref R97) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6334AEC5)) 
+    (comp 
+      (ref R98) 
+      (value 18k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6334AECB)) 
+    (comp 
+      (ref R49) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63455F6B)) 
+    (comp 
+      (ref R50) 
+      (value 18k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63455F71)) 
+    (comp 
+      (ref R47) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 635BA1AC)) 
+    (comp 
+      (ref R48) 
+      (value 18k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 635BA1B2)) 
+    (comp 
+      (ref R53) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6371D933)) 
+    (comp 
+      (ref R54) 
+      (value 18k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 6371D939)) 
+    (comp 
+      (ref R51) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63885D31)) 
+    (comp 
+      (ref R52) 
+      (value 18k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63885D37)) 
+    (comp 
+      (ref P9) 
+      (value CONN_1x2) 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x2) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 639ECF45)) 
+    (comp 
+      (ref P10) 
+      (value CONN_1x2) 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x2) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63B5D2F2)) 
+    (comp 
+      (ref P18) 
+      (value CONN_1x2) 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x2) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63B5DBB3)) 
+    (comp 
+      (ref P19) 
+      (value CONN_1x2) 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x2) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63B5DE2F)) 
+    (comp 
+      (ref P8) 
+      (value CONN_1x2) 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x2) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63B5E0CB)) 
+    (comp 
+      (ref P17) 
+      (value CONN_1x2) 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x2) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63B5E4C2)) 
+    (comp 
+      (ref P16) 
+      (value CONN_1x2) 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x2) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63B5EA9F)) 
+    (comp 
+      (ref P7) 
+      (value CONN_1x2) 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x2) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 63B5ECA7)) 
+    (comp 
+      (ref R109) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE10470RL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01958)) 
+    (comp 
+      (ref D11) 
+      (value ZENER_1.8V) 
+      (footprint lsts-discretes:SOD-123-AC) 
+      (fields 
+        (field 
+          (name manf#) BZT52C2V0-7-F)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ZENER-lsts-discrete) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A0195F)) 
+    (comp 
+      (ref R122) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A0196D)) 
+    (comp 
+      (ref C49) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01975)) 
+    (comp 
+      (ref R118) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A0198B)) 
+    (comp 
+      (ref R113) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01993)) 
+    (comp 
+      (ref C45) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A0199A)) 
+    (comp 
+      (ref R134) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A019A1)) 
+    (comp 
+      (ref R142) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A019AC)) 
+    (comp 
+      (ref C57) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A019B4)) 
+    (comp 
+      (ref R138) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A019C6)) 
+    (comp 
+      (ref U9) 
+      (value OPAMP_QUAD) 
+      (footprint lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm) 
+      (fields 
+        (field 
+          (name manf#) MCP6004-I/SL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part OPAMP_QUAD-lsts-ic) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A019D6)) 
+    (comp 
+      (ref R126) 
+      (value 100R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F120R)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A019DD)) 
+    (comp 
+      (ref R105) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A019E6)) 
+    (comp 
+      (ref R110) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE10470RL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A2E)) 
+    (comp 
+      (ref D12) 
+      (value ZENER_1.8V) 
+      (footprint lsts-discretes:SOD-123-AC) 
+      (fields 
+        (field 
+          (name manf#) BZT52C2V0-7-F)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part ZENER-lsts-discrete) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A35)) 
+    (comp 
+      (ref R123) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A43)) 
+    (comp 
+      (ref C50) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A4B)) 
+    (comp 
+      (ref R119) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A67)) 
+    (comp 
+      (ref R114) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A6F)) 
+    (comp 
+      (ref C46) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A76)) 
+    (comp 
+      (ref C54) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A7D)) 
+    (comp 
+      (ref R135) 
+      (value 68k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) RT0603FRE0768KL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A84)) 
+    (comp 
+      (ref R143) 
+      (value 470k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F470K)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A95)) 
+    (comp 
+      (ref C58) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (fields 
+        (field 
+          (name manf#) CC0603KRX7R8BB104)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A9D)) 
+    (comp 
+      (ref R139) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01AAF)) 
+    (comp 
+      (ref U17) 
+      (value OPAMP_QUAD) 
+      (footprint lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm) 
+      (fields 
+        (field 
+          (name manf#) MCP6004-I/SL)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part OPAMP_QUAD-lsts-ic) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01ABF)) 
+    (comp 
+      (ref R106) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CR0603-FX-1002ELF)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01AC8)) 
+    (comp 
+      (ref R131) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01D38)) 
+    (comp 
+      (ref R130) 
+      (value 4k7) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01D41)) 
+    (comp 
+      (ref C53) 
+      (value 4.7uF) 
+      (footprint lsts-passives:C4x5.5) 
+      (fields 
+        (field 
+          (name manf#) UWX1V4R7MCL1GB)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CAPAPOL-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01D48)) 
+    (comp 
+      (ref R127) 
+      (value 100R) 
+      (footprint lsts-passives:R_0603) 
+      (fields 
+        (field 
+          (name manf#) CRG0603F120R)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01E0F)) 
+    (comp 
+      (ref R148) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01E28)) 
+    (comp 
+      (ref R149) 
+      (value 18k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01E2E)) 
+    (comp 
+      (ref R150) 
+      (value 10k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01E3C)) 
+    (comp 
+      (ref R151) 
+      (value 18k) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib lsts-passives) 
+        (part R) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01E42)) 
+    (comp 
+      (ref P26) 
+      (value CONN_1x2) 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x2) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01E72)) 
+    (comp 
+      (ref P27) 
+      (value CONN_1x2) 
+      (footprint lsts-conn:PIN_ARRAY_2x1) 
+      (libsource 
+        (lib lsts-conn) 
+        (part CONN_1x2) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01E78)) 
+    (comp 
+      (ref P23) 
+      (value HB10) 
+      (footprint lsts-conn:JST-3x1HM) 
+      (fields 
+        (field 
+          (name manf#) NA)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_3x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A01A23)) 
+    (comp 
+      (ref P22) 
+      (value HB5) 
+      (footprint lsts-conn:JST-3x1HM) 
+      (fields 
+        (field 
+          (name manf#) NA)) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part CONN_3x1-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /HeartBeat/) 
+        (tstamps /59DE1E31/)) 
+      (tstamp 62A0194D)) 
+    (comp 
+      (ref C62) 
+      (value 100nF) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /SD_RTC/) 
+        (tstamps /62A21771/)) 
+      (tstamp 61AC3580)) 
+    (comp 
+      (ref U1) 
+      (value RV-3032-C7) 
+      (footprint lsts-devices:RV-3028-C7) 
+      (datasheet https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-3032-C7_App-Manual.pdf) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part RV-3032-C7-lsts-devices) 
+        (description "")) 
+      (sheetpath 
+        (names /SD_RTC/) 
+        (tstamps /62A21771/)) 
+      (tstamp 61C15736)) 
+    (comp 
+      (ref BT3) 
+      (value BATTERY_Keystone_3000) 
+      (footprint lsts-devices:Keystone_3000_1x12mm-CoinCell) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part BATTERY_Keystone_3000-lsts-conn) 
+        (description "")) 
+      (sheetpath 
+        (names /SD_RTC/) 
+        (tstamps /62A21771/)) 
+      (tstamp 61C22CE7)) 
+    (comp 
+      (ref C61) 
+      (value 0.1uF) 
+      (footprint lsts-passives:C_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part C-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /SD_RTC/) 
+        (tstamps /62A21771/)) 
+      (tstamp 61C25630)) 
+    (comp 
+      (ref R116) 
+      (value 470R) 
+      (footprint lsts-passives:R_0603) 
+      (libsource 
+        (lib ESPulse-rescue) 
+        (part R-lsts-passives) 
+        (description "")) 
+      (sheetpath 
+        (names /SD_RTC/) 
+        (tstamps /62A21771/)) 
+      (tstamp 61C27028))) 
+  (libparts 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part BATTERY_Keystone_3000-lsts-conn) 
+      (fields 
+        (field 
+          (name Reference) BT) 
+        (field 
+          (name Value) BATTERY_Keystone_3000-lsts-conn)) 
+      (pins 
+        (pin 
+          (num +) 
+          (name +) 
+          (type passive)) 
+        (pin 
+          (num -) 
+          (name -) 
+          (type passive)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part C-lsts-passives) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C-lsts-passives)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part CAPAPOL-lsts-passives) 
+      (footprints 
+        (fp CR*) 
+        (fp CP*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) CAPAPOL-lsts-passives)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part CONN_2x1-lsts-conn) 
+      (fields 
+        (field 
+          (name Reference) P) 
+        (field 
+          (name Value) CONN_2x1-lsts-conn)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part CONN_3x1-lsts-conn) 
+      (fields 
+        (field 
+          (name Reference) P) 
+        (field 
+          (name Value) CONN_3x1-lsts-conn)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part CONN_8x1-lsts-conn) 
+      (fields 
+        (field 
+          (name Reference) P) 
+        (field 
+          (name Value) CONN_8x1-lsts-conn)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part ESP32-WROOM-32D-lsts-devices) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) ESP32-WROOM-32D-lsts-devices)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name 3V3) 
+          (type power_in)) 
+        (pin 
+          (num 3) 
+          (name EN) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name SENSOR_VP) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name SENSOR_VN) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name IO34) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name IO35) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name IO32) 
+          (type BiDi)) 
+        (pin 
+          (num 9) 
+          (name IO33) 
+          (type BiDi)) 
+        (pin 
+          (num 10) 
+          (name IO25) 
+          (type BiDi)) 
+        (pin 
+          (num 11) 
+          (name IO26) 
+          (type BiDi)) 
+        (pin 
+          (num 12) 
+          (name IO27) 
+          (type BiDi)) 
+        (pin 
+          (num 13) 
+          (name IO14) 
+          (type BiDi)) 
+        (pin 
+          (num 14) 
+          (name IO12) 
+          (type BiDi)) 
+        (pin 
+          (num 15) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 16) 
+          (name IO13) 
+          (type BiDi)) 
+        (pin 
+          (num 17) 
+          (name SHD/SD2) 
+          (type BiDi)) 
+        (pin 
+          (num 18) 
+          (name SWP/SD3) 
+          (type BiDi)) 
+        (pin 
+          (num 19) 
+          (name SCS/CMD) 
+          (type BiDi)) 
+        (pin 
+          (num 20) 
+          (name SCK/CLK) 
+          (type BiDi)) 
+        (pin 
+          (num 21) 
+          (name SDO/SD0) 
+          (type BiDi)) 
+        (pin 
+          (num 22) 
+          (name SDI/SD1) 
+          (type BiDi)) 
+        (pin 
+          (num 23) 
+          (name IO15) 
+          (type BiDi)) 
+        (pin 
+          (num 24) 
+          (name IO2) 
+          (type BiDi)) 
+        (pin 
+          (num 25) 
+          (name IO0) 
+          (type BiDi)) 
+        (pin 
+          (num 26) 
+          (name IO4) 
+          (type BiDi)) 
+        (pin 
+          (num 27) 
+          (name IO16) 
+          (type BiDi)) 
+        (pin 
+          (num 28) 
+          (name IO17) 
+          (type BiDi)) 
+        (pin 
+          (num 29) 
+          (name IO5) 
+          (type BiDi)) 
+        (pin 
+          (num 30) 
+          (name IO18) 
+          (type BiDi)) 
+        (pin 
+          (num 31) 
+          (name IO19) 
+          (type BiDi)) 
+        (pin 
+          (num 32) 
+          (name NC) 
+          (type NotConnected)) 
+        (pin 
+          (num 33) 
+          (name IO21) 
+          (type BiDi)) 
+        (pin 
+          (num 34) 
+          (name RXD0) 
+          (type BiDi)) 
+        (pin 
+          (num 35) 
+          (name TXD0) 
+          (type BiDi)) 
+        (pin 
+          (num 36) 
+          (name IO22) 
+          (type BiDi)) 
+        (pin 
+          (num 37) 
+          (name IO23) 
+          (type BiDi)) 
+        (pin 
+          (num 38) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 39) 
+          (name GND) 
+          (type power_in)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part FTDI-TTL-232R-lsts-conn) 
+      (fields 
+        (field 
+          (name Reference) P) 
+        (field 
+          (name Value) FTDI-TTL-232R-lsts-conn)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name CTS#) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name VCC) 
+          (type power_out)) 
+        (pin 
+          (num 4) 
+          (name TxD) 
+          (type output)) 
+        (pin 
+          (num 5) 
+          (name RxD) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name RTS#) 
+          (type output)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part OPAMP_QUAD-lsts-ic) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) OPAMP_QUAD-lsts-ic)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type output)) 
+        (pin 
+          (num 2) 
+          (name -) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name +) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name V+) 
+          (type power_in)) 
+        (pin 
+          (num 5) 
+          (name +) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name -) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name ~) 
+          (type output)) 
+        (pin 
+          (num 8) 
+          (name ~) 
+          (type output)) 
+        (pin 
+          (num 9) 
+          (name -) 
+          (type input)) 
+        (pin 
+          (num 10) 
+          (name +) 
+          (type input)) 
+        (pin 
+          (num 11) 
+          (name V-) 
+          (type power_in)) 
+        (pin 
+          (num 12) 
+          (name +) 
+          (type input)) 
+        (pin 
+          (num 13) 
+          (name -) 
+          (type input)) 
+        (pin 
+          (num 14) 
+          (name ~) 
+          (type output)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part R-lsts-passives) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R-lsts-passives)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part REG_Recom-lsts-regul) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) REG_Recom-lsts-regul)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Vin) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name GND) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name Vout) 
+          (type input)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part RV-3032-C7-lsts-devices) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) RV-3032-C7-lsts-devices) 
+        (field 
+          (name Footprint) lsts-devices:RV-3028-C7)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VBACKUP) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name SDA) 
+          (type BiDi)) 
+        (pin 
+          (num 3) 
+          (name ~INT) 
+          (type openCol)) 
+        (pin 
+          (num 4) 
+          (name EVI) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name VSS) 
+          (type power_in)) 
+        (pin 
+          (num 6) 
+          (name VDD) 
+          (type power_in)) 
+        (pin 
+          (num 7) 
+          (name CLKOUT) 
+          (type unspc)) 
+        (pin 
+          (num 8) 
+          (name SCL) 
+          (type input)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part SW_PUSH-lsts-devices) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_PUSH-lsts-devices)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)))) 
+    (libpart 
+      (lib ESPulse-rescue) 
+      (part ZENER-lsts-discrete) 
+      (footprints 
+        (fp D?) 
+        (fp SO*) 
+        (fp SM*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) ZENER-lsts-discrete)) 
+      (pins 
+        (pin 
+          (num A) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num C) 
+          (name K) 
+          (type passive)))) 
+    (libpart 
+      (lib lsts-conn) 
+      (part CONN_1x1) 
+      (fields 
+        (field 
+          (name Reference) P) 
+        (field 
+          (name Value) CONN_1x1)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib lsts-conn) 
+      (part CONN_1x2) 
+      (fields 
+        (field 
+          (name Reference) P) 
+        (field 
+          (name Value) CONN_1x2)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib lsts-passives) 
+      (part R) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib lsts-regul) 
+      (part GEN_REGULATOR) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) GEN_REGULATOR)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Vin) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 3) 
+          (name Vout) 
+          (type power_out))))) 
+  (libraries 
+    (library 
+      (logical ESPulse-rescue) 
+      (uri C:\Users\Luis\Documents\Kicad_Database\cibio\ESPulse\trunk/ESPulse-rescue.lib)) 
+    (library 
+      (logical lsts-conn) 
+      (uri C:\Users\Luis\Documents\Kicad_Database\common/eda/kicad-library/lsts-conn.lib)) 
+    (library 
+      (logical lsts-passives) 
+      (uri C:\Users\Luis\Documents\Kicad_Database\common/eda/kicad-library/lsts-passives.lib)) 
+    (library 
+      (logical lsts-regul) 
+      (uri C:\Users\Luis\Documents\Kicad_Database\common/eda/kicad-library/lsts-regul.lib))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name +3.3V) 
+      (node 
+        (ref C9) 
+        (pin 1)) 
+      (node 
+        (ref 3.3vReg1) 
+        (pin 3)) 
+      (node 
+        (ref R26) 
+        (pin 1)) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref R2) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 2)) 
+      (node 
+        (ref C5) 
+        (pin 1)) 
+      (node 
+        (ref C4) 
+        (pin 1)) 
+      (node 
+        (ref R34) 
+        (pin 1)) 
+      (node 
+        (ref R33) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 6)) 
+      (node 
+        (ref C62) 
+        (pin 2)) 
+      (node 
+        (ref R27) 
+        (pin 1)) 
+      (node 
+        (ref P4) 
+        (pin 2))) 
+    (net 
+      (code 2) 
+      (name GND) 
+      (node 
+        (ref U9) 
+        (pin 11)) 
+      (node 
+        (ref U17) 
+        (pin 11)) 
+      (node 
+        (ref U17) 
+        (pin 11)) 
+      (node 
+        (ref U17) 
+        (pin 11)) 
+      (node 
+        (ref P6) 
+        (pin 1)) 
+      (node 
+        (ref R54) 
+        (pin 2)) 
+      (node 
+        (ref D11) 
+        (pin A)) 
+      (node 
+        (ref R149) 
+        (pin 2)) 
+      (node 
+        (ref U9) 
+        (pin 11)) 
+      (node 
+        (ref P22) 
+        (pin 1)) 
+      (node 
+        (ref P23) 
+        (pin 1)) 
+      (node 
+        (ref R151) 
+        (pin 2)) 
+      (node 
+        (ref P1) 
+        (pin 1)) 
+      (node 
+        (ref U17) 
+        (pin 11)) 
+      (node 
+        (ref R100) 
+        (pin 2)) 
+      (node 
+        (ref R98) 
+        (pin 2)) 
+      (node 
+        (ref U14) 
+        (pin 11)) 
+      (node 
+        (ref U14) 
+        (pin 11)) 
+      (node 
+        (ref U14) 
+        (pin 11)) 
+      (node 
+        (ref R96) 
+        (pin 2)) 
+      (node 
+        (ref R52) 
+        (pin 2)) 
+      (node 
+        (ref R102) 
+        (pin 2)) 
+      (node 
+        (ref R48) 
+        (pin 2)) 
+      (node 
+        (ref U14) 
+        (pin 11)) 
+      (node 
+        (ref R50) 
+        (pin 2)) 
+      (node 
+        (ref U11) 
+        (pin 11)) 
+      (node 
+        (ref U11) 
+        (pin 11)) 
+      (node 
+        (ref U11) 
+        (pin 11)) 
+      (node 
+        (ref D1) 
+        (pin A)) 
+      (node 
+        (ref P3) 
+        (pin 1)) 
+      (node 
+        (ref D5) 
+        (pin A)) 
+      (node 
+        (ref P12) 
+        (pin 1)) 
+      (node 
+        (ref U15) 
+        (pin 11)) 
+      (node 
+        (ref U15) 
+        (pin 11)) 
+      (node 
+        (ref D6) 
+        (pin A)) 
+      (node 
+        (ref P13) 
+        (pin 1)) 
+      (node 
+        (ref U15) 
+        (pin 11)) 
+      (node 
+        (ref C61) 
+        (pin 1)) 
+      (node 
+        (ref BT3) 
+        (pin -)) 
+      (node 
+        (ref U1) 
+        (pin 5)) 
+      (node 
+        (ref C62) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 4)) 
+      (node 
+        (ref U10) 
+        (pin 11)) 
+      (node 
+        (ref U10) 
+        (pin 11)) 
+      (node 
+        (ref U10) 
+        (pin 11)) 
+      (node 
+        (ref U10) 
+        (pin 11)) 
+      (node 
+        (ref U15) 
+        (pin 11)) 
+      (node 
+        (ref P4) 
+        (pin 1)) 
+      (node 
+        (ref U11) 
+        (pin 11)) 
+      (node 
+        (ref P15) 
+        (pin 1)) 
+      (node 
+        (ref U5) 
+        (pin 11)) 
+      (node 
+        (ref U5) 
+        (pin 11)) 
+      (node 
+        (ref D8) 
+        (pin A)) 
+      (node 
+        (ref U6) 
+        (pin 11)) 
+      (node 
+        (ref U6) 
+        (pin 11)) 
+      (node 
+        (ref D12) 
+        (pin A)) 
+      (node 
+        (ref U9) 
+        (pin 11)) 
+      (node 
+        (ref U5) 
+        (pin 11)) 
+      (node 
+        (ref U5) 
+        (pin 11)) 
+      (node 
+        (ref D4) 
+        (pin A)) 
+      (node 
+        (ref U12) 
+        (pin 11)) 
+      (node 
+        (ref P5) 
+        (pin 1)) 
+      (node 
+        (ref U13) 
+        (pin 11)) 
+      (node 
+        (ref D2) 
+        (pin A)) 
+      (node 
+        (ref U13) 
+        (pin 11)) 
+      (node 
+        (ref U13) 
+        (pin 11)) 
+      (node 
+        (ref U13) 
+        (pin 11)) 
+      (node 
+        (ref D3) 
+        (pin A)) 
+      (node 
+        (ref U6) 
+        (pin 11)) 
+      (node 
+        (ref U6) 
+        (pin 11)) 
+      (node 
+        (ref U9) 
+        (pin 11)) 
+      (node 
+        (ref P11) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 11)) 
+      (node 
+        (ref U12) 
+        (pin 11)) 
+      (node 
+        (ref U12) 
+        (pin 11)) 
+      (node 
+        (ref D7) 
+        (pin A)) 
+      (node 
+        (ref P14) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref C10) 
+        (pin 1)) 
+      (node 
+        (ref SW3) 
+        (pin 1)) 
+      (node 
+        (ref C5) 
+        (pin 2)) 
+      (node 
+        (ref SW2) 
+        (pin 1)) 
+      (node 
+        (ref C6) 
+        (pin 2)) 
+      (node 
+        (ref C9) 
+        (pin 2)) 
+      (node 
+        (ref 3.3vReg1) 
+        (pin 2)) 
+      (node 
+        (ref C3) 
+        (pin 2)) 
+      (node 
+        (ref C11) 
+        (pin 1)) 
+      (node 
+        (ref P2) 
+        (pin 1)) 
+      (node 
+        (ref SW4) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 39)) 
+      (node 
+        (ref U3) 
+        (pin 38)) 
+      (node 
+        (ref U3) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 15)) 
+      (node 
+        (ref SW1) 
+        (pin 1)) 
+      (node 
+        (ref C17) 
+        (pin 2)) 
+      (node 
+        (ref 5vReg1) 
+        (pin 2)) 
+      (node 
+        (ref C4) 
+        (pin 2))) 
+    (net 
+      (code 3) 
+      (name /Switch_2) 
+      (node 
+        (ref SW4) 
+        (pin 2)) 
+      (node 
+        (ref R27) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 28)) 
+      (node 
+        (ref C11) 
+        (pin 2))) 
+    (net 
+      (code 4) 
+      (name /Switch_1) 
+      (node 
+        (ref U3) 
+        (pin 27)) 
+      (node 
+        (ref SW3) 
+        (pin 2)) 
+      (node 
+        (ref R26) 
+        (pin 2)) 
+      (node 
+        (ref C10) 
+        (pin 2))) 
+    (net 
+      (code 5) 
+      (name /7_HB_ADC) 
+      (node 
+        (ref U3) 
+        (pin 10)) 
+      (node 
+        (ref R50) 
+        (pin 1)) 
+      (node 
+        (ref R49) 
+        (pin 2))) 
+    (net 
+      (code 6) 
+      (name /SPI_CS_SD) 
+      (node 
+        (ref P4) 
+        (pin 8)) 
+      (node 
+        (ref U3) 
+        (pin 29))) 
+    (net 
+      (code 7) 
+      (name /SPI_MISO) 
+      (node 
+        (ref U3) 
+        (pin 31)) 
+      (node 
+        (ref P4) 
+        (pin 4))) 
+    (net 
+      (code 8) 
+      (name /SPI_MOSI) 
+      (node 
+        (ref U3) 
+        (pin 37)) 
+      (node 
+        (ref P4) 
+        (pin 5))) 
+    (net 
+      (code 9) 
+      (name /SPI_CS_TFT) 
+      (node 
+        (ref U3) 
+        (pin 16)) 
+      (node 
+        (ref P4) 
+        (pin 6))) 
+    (net 
+      (code 10) 
+      (name /DC_TFT) 
+      (node 
+        (ref U3) 
+        (pin 24)) 
+      (node 
+        (ref P4) 
+        (pin 7))) 
+    (net 
+      (code 11) 
+      (name /SPI_SCK) 
+      (node 
+        (ref P4) 
+        (pin 3)) 
+      (node 
+        (ref U3) 
+        (pin 30))) 
+    (net 
+      (code 12) 
+      (name +12V) 
+      (node 
+        (ref 3.3vReg1) 
+        (pin 1)) 
+      (node 
+        (ref P2) 
+        (pin 2)) 
+      (node 
+        (ref 5vReg1) 
+        (pin 1)) 
+      (node 
+        (ref C6) 
+        (pin 1))) 
+    (net 
+      (code 13) 
+      (name /6_HB_ADC) 
+      (node 
+        (ref R96) 
+        (pin 1)) 
+      (node 
+        (ref R95) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 9))) 
+    (net 
+      (code 14) 
+      (name /1_HB_ADC) 
+      (node 
+        (ref R52) 
+        (pin 1)) 
+      (node 
+        (ref R51) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 4))) 
+    (net 
+      (code 15) 
+      (name +5V) 
+      (node 
+        (ref U15) 
+        (pin 4)) 
+      (node 
+        (ref R61) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 4)) 
+      (node 
+        (ref R77) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 4)) 
+      (node 
+        (ref R57) 
+        (pin 1)) 
+      (node 
+        (ref U13) 
+        (pin 4)) 
+      (node 
+        (ref R8) 
+        (pin 1)) 
+      (node 
+        (ref U13) 
+        (pin 4)) 
+      (node 
+        (ref U13) 
+        (pin 4)) 
+      (node 
+        (ref R55) 
+        (pin 1)) 
+      (node 
+        (ref R75) 
+        (pin 1)) 
+      (node 
+        (ref U15) 
+        (pin 4)) 
+      (node 
+        (ref U15) 
+        (pin 4)) 
+      (node 
+        (ref R25) 
+        (pin 1)) 
+      (node 
+        (ref 5vReg1) 
+        (pin 3)) 
+      (node 
+        (ref U13) 
+        (pin 4)) 
+      (node 
+        (ref R127) 
+        (pin 1)) 
+      (node 
+        (ref C17) 
+        (pin 1)) 
+      (node 
+        (ref R5) 
+        (pin 1)) 
+      (node 
+        (ref R38) 
+        (pin 1)) 
+      (node 
+        (ref R106) 
+        (pin 1)) 
+      (node 
+        (ref U6) 
+        (pin 4)) 
+      (node 
+        (ref U6) 
+        (pin 4)) 
+      (node 
+        (ref U17) 
+        (pin 4)) 
+      (node 
+        (ref U17) 
+        (pin 4)) 
+      (node 
+        (ref U17) 
+        (pin 4)) 
+      (node 
+        (ref U6) 
+        (pin 4)) 
+      (node 
+        (ref R126) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 4)) 
+      (node 
+        (ref R10) 
+        (pin 1)) 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref U5) 
+        (pin 4)) 
+      (node 
+        (ref U5) 
+        (pin 4)) 
+      (node 
+        (ref U9) 
+        (pin 4)) 
+      (node 
+        (ref R110) 
+        (pin 1)) 
+      (node 
+        (ref U17) 
+        (pin 4)) 
+      (node 
+        (ref U11) 
+        (pin 4)) 
+      (node 
+        (ref U5) 
+        (pin 4)) 
+      (node 
+        (ref U5) 
+        (pin 4)) 
+      (node 
+        (ref R105) 
+        (pin 1)) 
+      (node 
+        (ref U9) 
+        (pin 4)) 
+      (node 
+        (ref U9) 
+        (pin 4)) 
+      (node 
+        (ref U9) 
+        (pin 4)) 
+      (node 
+        (ref R109) 
+        (pin 1)) 
+      (node 
+        (ref R62) 
+        (pin 1)) 
+      (node 
+        (ref R9) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 4)) 
+      (node 
+        (ref U6) 
+        (pin 4)) 
+      (node 
+        (ref R59) 
+        (pin 1)) 
+      (node 
+        (ref U11) 
+        (pin 4)) 
+      (node 
+        (ref U14) 
+        (pin 4)) 
+      (node 
+        (ref U11) 
+        (pin 4)) 
+      (node 
+        (ref U14) 
+        (pin 4)) 
+      (node 
+        (ref R56) 
+        (pin 1)) 
+      (node 
+        (ref U11) 
+        (pin 4)) 
+      (node 
+        (ref R58) 
+        (pin 1)) 
+      (node 
+        (ref R7) 
+        (pin 1)) 
+      (node 
+        (ref R76) 
+        (pin 1)) 
+      (node 
+        (ref U14) 
+        (pin 4)) 
+      (node 
+        (ref U10) 
+        (pin 4)) 
+      (node 
+        (ref U10) 
+        (pin 4)) 
+      (node 
+        (ref U10) 
+        (pin 4)) 
+      (node 
+        (ref U10) 
+        (pin 4)) 
+      (node 
+        (ref R23) 
+        (pin 1)) 
+      (node 
+        (ref R3) 
+        (pin 1)) 
+      (node 
+        (ref U14) 
+        (pin 4)) 
+      (node 
+        (ref U15) 
+        (pin 4)) 
+      (node 
+        (ref R24) 
+        (pin 1)) 
+      (node 
+        (ref R78) 
+        (pin 1)) 
+      (node 
+        (ref R4) 
+        (pin 1)) 
+      (node 
+        (ref R60) 
+        (pin 1))) 
+    (net 
+      (code 16) 
+      (name /SDA) 
+      (node 
+        (ref U1) 
+        (pin 2)) 
+      (node 
+        (ref R33) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 33))) 
+    (net 
+      (code 17) 
+      (name /SCL) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref U3) 
+        (pin 36)) 
+      (node 
+        (ref R34) 
+        (pin 2))) 
+    (net 
+      (code 18) 
+      (name "Net-(P24-Pad1)") 
+      (node 
+        (ref P24) 
+        (pin 1))) 
+    (net 
+      (code 19) 
+      (name "Net-(P20-Pad1)") 
+      (node 
+        (ref P20) 
+        (pin 1))) 
+    (net 
+      (code 20) 
+      (name "Net-(P21-Pad1)") 
+      (node 
+        (ref P21) 
+        (pin 1))) 
+    (net 
+      (code 21) 
+      (name "Net-(P25-Pad1)") 
+      (node 
+        (ref P25) 
+        (pin 1))) 
+    (net 
+      (code 22) 
+      (name /10_HB_ADC) 
+      (node 
+        (ref U3) 
+        (pin 26)) 
+      (node 
+        (ref R150) 
+        (pin 2)) 
+      (node 
+        (ref R151) 
+        (pin 1))) 
+    (net 
+      (code 23) 
+      (name /9_HB_ADC) 
+      (node 
+        (ref U3) 
+        (pin 12)) 
+      (node 
+        (ref R149) 
+        (pin 1)) 
+      (node 
+        (ref R148) 
+        (pin 2))) 
+    (net 
+      (code 24) 
+      (name "Net-(U3-Pad19)") 
+      (node 
+        (ref U3) 
+        (pin 19))) 
+    (net 
+      (code 25) 
+      (name "Net-(U3-Pad23)") 
+      (node 
+        (ref U3) 
+        (pin 23))) 
+    (net 
+      (code 26) 
+      (name "Net-(U3-Pad22)") 
+      (node 
+        (ref U3) 
+        (pin 22))) 
+    (net 
+      (code 27) 
+      (name "Net-(U3-Pad21)") 
+      (node 
+        (ref U3) 
+        (pin 21))) 
+    (net 
+      (code 28) 
+      (name "Net-(U3-Pad20)") 
+      (node 
+        (ref U3) 
+        (pin 20))) 
+    (net 
+      (code 29) 
+      (name "Net-(U3-Pad18)") 
+      (node 
+        (ref U3) 
+        (pin 18))) 
+    (net 
+      (code 30) 
+      (name "Net-(U3-Pad17)") 
+      (node 
+        (ref U3) 
+        (pin 17))) 
+    (net 
+      (code 31) 
+      (name "Net-(U3-Pad14)") 
+      (node 
+        (ref U3) 
+        (pin 14))) 
+    (net 
+      (code 32) 
+      (name "Net-(U3-Pad13)") 
+      (node 
+        (ref U3) 
+        (pin 13))) 
+    (net 
+      (code 33) 
+      (name "Net-(U3-Pad32)") 
+      (node 
+        (ref U3) 
+        (pin 32))) 
+    (net 
+      (code 34) 
+      (name /FTDI_RX) 
+      (node 
+        (ref P1) 
+        (pin 5)) 
+      (node 
+        (ref U3) 
+        (pin 35))) 
+    (net 
+      (code 35) 
+      (name /FTDI_TX) 
+      (node 
+        (ref P1) 
+        (pin 4)) 
+      (node 
+        (ref U3) 
+        (pin 34))) 
+    (net 
+      (code 36) 
+      (name /ESP_EN) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 3)) 
+      (node 
+        (ref SW1) 
+        (pin 2)) 
+      (node 
+        (ref R1) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 1))) 
+    (net 
+      (code 37) 
+      (name /8_HB_ADC) 
+      (node 
+        (ref R98) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 11)) 
+      (node 
+        (ref R97) 
+        (pin 2))) 
+    (net 
+      (code 38) 
+      (name /5_HB_ADC) 
+      (node 
+        (ref R48) 
+        (pin 1)) 
+      (node 
+        (ref R47) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 8))) 
+    (net 
+      (code 39) 
+      (name /4_HB_ADC) 
+      (node 
+        (ref U3) 
+        (pin 7)) 
+      (node 
+        (ref R101) 
+        (pin 2)) 
+      (node 
+        (ref R102) 
+        (pin 1))) 
+    (net 
+      (code 40) 
+      (name /3_HB_ADC) 
+      (node 
+        (ref U3) 
+        (pin 6)) 
+      (node 
+        (ref R53) 
+        (pin 2)) 
+      (node 
+        (ref R54) 
+        (pin 1))) 
+    (net 
+      (code 41) 
+      (name /2_HB_ADC) 
+      (node 
+        (ref U3) 
+        (pin 5)) 
+      (node 
+        (ref R100) 
+        (pin 1)) 
+      (node 
+        (ref R99) 
+        (pin 2))) 
+    (net 
+      (code 42) 
+      (name /ESP_IO_0) 
+      (node 
+        (ref SW2) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 25)) 
+      (node 
+        (ref R2) 
+        (pin 1)) 
+      (node 
+        (ref C3) 
+        (pin 1))) 
+    (net 
+      (code 43) 
+      (name "Net-(P1-Pad2)") 
+      (node 
+        (ref P1) 
+        (pin 2))) 
+    (net 
+      (code 44) 
+      (name "Net-(P1-Pad3)") 
+      (node 
+        (ref P1) 
+        (pin 3))) 
+    (net 
+      (code 45) 
+      (name "Net-(C1-Pad2)") 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref P1) 
+        (pin 6))) 
+    (net 
+      (code 46) 
+      (name "Net-(C22-Pad1)") 
+      (node 
+        (ref P9) 
+        (pin 1)) 
+      (node 
+        (ref C22) 
+        (pin 1)) 
+      (node 
+        (ref R30) 
+        (pin 2))) 
+    (net 
+      (code 47) 
+      (name "Net-(C20-Pad1)") 
+      (node 
+        (ref C20) 
+        (pin 1)) 
+      (node 
+        (ref R28) 
+        (pin 2)) 
+      (node 
+        (ref P7) 
+        (pin 1))) 
+    (net 
+      (code 48) 
+      (name "Net-(C31-Pad1)") 
+      (node 
+        (ref R71) 
+        (pin 1)) 
+      (node 
+        (ref C31) 
+        (pin 1)) 
+      (node 
+        (ref R80) 
+        (pin 1)) 
+      (node 
+        (ref U13) 
+        (pin 1))) 
+    (net 
+      (code 49) 
+      (name /HeartBeat/HB3-P) 
+      (node 
+        (ref P6) 
+        (pin 2)) 
+      (node 
+        (ref R25) 
+        (pin 2))) 
+    (net 
+      (code 50) 
+      (name /HeartBeat/HB3-S) 
+      (node 
+        (ref P6) 
+        (pin 3)) 
+      (node 
+        (ref R6) 
+        (pin 2)) 
+      (node 
+        (ref C13) 
+        (pin 1))) 
+    (net 
+      (code 51) 
+      (name "Net-(C36-Pad1)") 
+      (node 
+        (ref C36) 
+        (pin 1)) 
+      (node 
+        (ref P16) 
+        (pin 1)) 
+      (node 
+        (ref R79) 
+        (pin 2))) 
+    (net 
+      (code 52) 
+      (name "Net-(R95-Pad1)") 
+      (node 
+        (ref U13) 
+        (pin 8)) 
+      (node 
+        (ref U13) 
+        (pin 9)) 
+      (node 
+        (ref R95) 
+        (pin 1))) 
+    (net 
+      (code 53) 
+      (name "Net-(R101-Pad1)") 
+      (node 
+        (ref R101) 
+        (pin 1)) 
+      (node 
+        (ref U11) 
+        (pin 8)) 
+      (node 
+        (ref U11) 
+        (pin 9))) 
+    (net 
+      (code 54) 
+      (name "Net-(R53-Pad1)") 
+      (node 
+        (ref U5) 
+        (pin 9)) 
+      (node 
+        (ref R53) 
+        (pin 1)) 
+      (node 
+        (ref U5) 
+        (pin 8))) 
+    (net 
+      (code 55) 
+      (name "Net-(C32-Pad1)") 
+      (node 
+        (ref U14) 
+        (pin 1)) 
+      (node 
+        (ref R79) 
+        (pin 1)) 
+      (node 
+        (ref R72) 
+        (pin 1)) 
+      (node 
+        (ref C32) 
+        (pin 1))) 
+    (net 
+      (code 56) 
+      (name "Net-(R51-Pad1)") 
+      (node 
+        (ref U6) 
+        (pin 8)) 
+      (node 
+        (ref U6) 
+        (pin 9)) 
+      (node 
+        (ref R51) 
+        (pin 1))) 
+    (net 
+      (code 57) 
+      (name "Net-(R47-Pad1)") 
+      (node 
+        (ref U10) 
+        (pin 9)) 
+      (node 
+        (ref U10) 
+        (pin 8)) 
+      (node 
+        (ref R47) 
+        (pin 1))) 
+    (net 
+      (code 58) 
+      (name "Net-(R99-Pad1)") 
+      (node 
+        (ref R99) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 8)) 
+      (node 
+        (ref U12) 
+        (pin 9))) 
+    (net 
+      (code 59) 
+      (name /HeartBeat/HB8-S) 
+      (node 
+        (ref P13) 
+        (pin 3)) 
+      (node 
+        (ref R56) 
+        (pin 2)) 
+      (node 
+        (ref C28) 
+        (pin 1))) 
+    (net 
+      (code 60) 
+      (name "Net-(R97-Pad1)") 
+      (node 
+        (ref U14) 
+        (pin 8)) 
+      (node 
+        (ref U14) 
+        (pin 9)) 
+      (node 
+        (ref R97) 
+        (pin 1))) 
+    (net 
+      (code 61) 
+      (name /HeartBeat/HB8-P) 
+      (node 
+        (ref R76) 
+        (pin 2)) 
+      (node 
+        (ref P13) 
+        (pin 2))) 
+    (net 
+      (code 62) 
+      (name "Net-(C40-Pad2)") 
+      (node 
+        (ref R92) 
+        (pin 2)) 
+      (node 
+        (ref R88) 
+        (pin 1)) 
+      (node 
+        (ref U14) 
+        (pin 6)) 
+      (node 
+        (ref C40) 
+        (pin 2))) 
+    (net 
+      (code 63) 
+      (name "Net-(U14-Pad13)") 
+      (node 
+        (ref U14) 
+        (pin 14)) 
+      (node 
+        (ref U14) 
+        (pin 13))) 
+    (net 
+      (code 64) 
+      (name VRef_8) 
+      (node 
+        (ref U14) 
+        (pin 12)) 
+      (node 
+        (ref P16) 
+        (pin 2)) 
+      (node 
+        (ref R68) 
+        (pin 2)) 
+      (node 
+        (ref D6) 
+        (pin C)) 
+      (node 
+        (ref R64) 
+        (pin 2)) 
+      (node 
+        (ref R60) 
+        (pin 2)) 
+      (node 
+        (ref R84) 
+        (pin 2)) 
+      (node 
+        (ref R88) 
+        (pin 2))) 
+    (net 
+      (code 65) 
+      (name "Net-(C40-Pad1)") 
+      (node 
+        (ref U14) 
+        (pin 7)) 
+      (node 
+        (ref C40) 
+        (pin 1)) 
+      (node 
+        (ref R92) 
+        (pin 1)) 
+      (node 
+        (ref U14) 
+        (pin 10))) 
+    (net 
+      (code 66) 
+      (name "Net-(C28-Pad2)") 
+      (node 
+        (ref U14) 
+        (pin 3)) 
+      (node 
+        (ref R64) 
+        (pin 1)) 
+      (node 
+        (ref C28) 
+        (pin 2))) 
+    (net 
+      (code 67) 
+      (name "Net-(C32-Pad2)") 
+      (node 
+        (ref R68) 
+        (pin 1)) 
+      (node 
+        (ref R72) 
+        (pin 2)) 
+      (node 
+        (ref U14) 
+        (pin 2)) 
+      (node 
+        (ref C32) 
+        (pin 2))) 
+    (net 
+      (code 68) 
+      (name "Net-(C36-Pad2)") 
+      (node 
+        (ref C36) 
+        (pin 2)) 
+      (node 
+        (ref U14) 
+        (pin 5)) 
+      (node 
+        (ref R84) 
+        (pin 1))) 
+    (net 
+      (code 69) 
+      (name "Net-(C19-Pad1)") 
+      (node 
+        (ref R29) 
+        (pin 2)) 
+      (node 
+        (ref C19) 
+        (pin 1)) 
+      (node 
+        (ref P8) 
+        (pin 1))) 
+    (net 
+      (code 70) 
+      (name "Net-(C21-Pad1)") 
+      (node 
+        (ref P10) 
+        (pin 1)) 
+      (node 
+        (ref C21) 
+        (pin 1)) 
+      (node 
+        (ref R31) 
+        (pin 2))) 
+    (net 
+      (code 71) 
+      (name "Net-(C37-Pad1)") 
+      (node 
+        (ref P18) 
+        (pin 1)) 
+      (node 
+        (ref C37) 
+        (pin 1)) 
+      (node 
+        (ref R81) 
+        (pin 2))) 
+    (net 
+      (code 72) 
+      (name "Net-(C38-Pad1)") 
+      (node 
+        (ref P19) 
+        (pin 1)) 
+      (node 
+        (ref C38) 
+        (pin 1)) 
+      (node 
+        (ref R82) 
+        (pin 2))) 
+    (net 
+      (code 73) 
+      (name "Net-(C35-Pad1)") 
+      (node 
+        (ref R80) 
+        (pin 2)) 
+      (node 
+        (ref P17) 
+        (pin 1)) 
+      (node 
+        (ref C35) 
+        (pin 1))) 
+    (net 
+      (code 74) 
+      (name /HeartBeat/HB10-P) 
+      (node 
+        (ref R127) 
+        (pin 2)) 
+      (node 
+        (ref P23) 
+        (pin 2))) 
+    (net 
+      (code 75) 
+      (name "Net-(C58-Pad2)") 
+      (node 
+        (ref R139) 
+        (pin 1)) 
+      (node 
+        (ref R143) 
+        (pin 2)) 
+      (node 
+        (ref U17) 
+        (pin 6)) 
+      (node 
+        (ref C58) 
+        (pin 2))) 
+    (net 
+      (code 76) 
+      (name "Net-(R150-Pad1)") 
+      (node 
+        (ref R150) 
+        (pin 1)) 
+      (node 
+        (ref U17) 
+        (pin 8)) 
+      (node 
+        (ref U17) 
+        (pin 9))) 
+    (net 
+      (code 77) 
+      (name /HeartBeat/HB10-S) 
+      (node 
+        (ref P23) 
+        (pin 3)) 
+      (node 
+        (ref C46) 
+        (pin 1)) 
+      (node 
+        (ref R106) 
+        (pin 2))) 
+    (net 
+      (code 78) 
+      (name "Net-(C50-Pad2)") 
+      (node 
+        (ref U17) 
+        (pin 2)) 
+      (node 
+        (ref R123) 
+        (pin 2)) 
+      (node 
+        (ref C50) 
+        (pin 2)) 
+      (node 
+        (ref R119) 
+        (pin 1))) 
+    (net 
+      (code 79) 
+      (name "Net-(C58-Pad1)") 
+      (node 
+        (ref U17) 
+        (pin 10)) 
+      (node 
+        (ref R143) 
+        (pin 1)) 
+      (node 
+        (ref C58) 
+        (pin 1)) 
+      (node 
+        (ref U17) 
+        (pin 7))) 
+    (net 
+      (code 80) 
+      (name "Net-(U17-Pad13)") 
+      (node 
+        (ref U17) 
+        (pin 13)) 
+      (node 
+        (ref U17) 
+        (pin 14))) 
+    (net 
+      (code 81) 
+      (name VRef_10) 
+      (node 
+        (ref D12) 
+        (pin C)) 
+      (node 
+        (ref R135) 
+        (pin 2)) 
+      (node 
+        (ref R114) 
+        (pin 2)) 
+      (node 
+        (ref R119) 
+        (pin 2)) 
+      (node 
+        (ref U17) 
+        (pin 12)) 
+      (node 
+        (ref R110) 
+        (pin 2)) 
+      (node 
+        (ref P27) 
+        (pin 2)) 
+      (node 
+        (ref R139) 
+        (pin 2))) 
+    (net 
+      (code 82) 
+      (name "Net-(C54-Pad2)") 
+      (node 
+        (ref C54) 
+        (pin 2)) 
+      (node 
+        (ref R135) 
+        (pin 1)) 
+      (node 
+        (ref U17) 
+        (pin 5))) 
+    (net 
+      (code 83) 
+      (name "Net-(C46-Pad2)") 
+      (node 
+        (ref C46) 
+        (pin 2)) 
+      (node 
+        (ref R114) 
+        (pin 1)) 
+      (node 
+        (ref U17) 
+        (pin 3))) 
+    (net 
+      (code 84) 
+      (name "Net-(C53-Pad1)") 
+      (node 
+        (ref C53) 
+        (pin 1)) 
+      (node 
+        (ref P26) 
+        (pin 1)) 
+      (node 
+        (ref R130) 
+        (pin 2))) 
+    (net 
+      (code 85) 
+      (name /HeartBeat/HB9-S) 
+      (node 
+        (ref C45) 
+        (pin 1)) 
+      (node 
+        (ref R105) 
+        (pin 2)) 
+      (node 
+        (ref P22) 
+        (pin 3))) 
+    (net 
+      (code 86) 
+      (name "Net-(C54-Pad1)") 
+      (node 
+        (ref C54) 
+        (pin 1)) 
+      (node 
+        (ref R131) 
+        (pin 2)) 
+      (node 
+        (ref P27) 
+        (pin 1))) 
+    (net 
+      (code 87) 
+      (name "Net-(C50-Pad1)") 
+      (node 
+        (ref C50) 
+        (pin 1)) 
+      (node 
+        (ref U17) 
+        (pin 1)) 
+      (node 
+        (ref R131) 
+        (pin 1)) 
+      (node 
+        (ref R123) 
+        (pin 1))) 
+    (net 
+      (code 88) 
+      (name /HeartBeat/HB9-P) 
+      (node 
+        (ref P22) 
+        (pin 2)) 
+      (node 
+        (ref R126) 
+        (pin 2))) 
+    (net 
+      (code 89) 
+      (name "Net-(C49-Pad1)") 
+      (node 
+        (ref U9) 
+        (pin 1)) 
+      (node 
+        (ref C49) 
+        (pin 1)) 
+      (node 
+        (ref R122) 
+        (pin 1)) 
+      (node 
+        (ref R130) 
+        (pin 1))) 
+    (net 
+      (code 90) 
+      (name "Net-(R148-Pad1)") 
+      (node 
+        (ref U9) 
+        (pin 9)) 
+      (node 
+        (ref U9) 
+        (pin 8)) 
+      (node 
+        (ref R148) 
+        (pin 1))) 
+    (net 
+      (code 91) 
+      (name "Net-(U9-Pad13)") 
+      (node 
+        (ref U9) 
+        (pin 13)) 
+      (node 
+        (ref U9) 
+        (pin 14))) 
+    (net 
+      (code 92) 
+      (name "Net-(C57-Pad2)") 
+      (node 
+        (ref R142) 
+        (pin 2)) 
+      (node 
+        (ref R138) 
+        (pin 1)) 
+      (node 
+        (ref C57) 
+        (pin 2)) 
+      (node 
+        (ref U9) 
+        (pin 6))) 
+    (net 
+      (code 93) 
+      (name VRef_9) 
+      (node 
+        (ref U9) 
+        (pin 12)) 
+      (node 
+        (ref R134) 
+        (pin 2)) 
+      (node 
+        (ref R113) 
+        (pin 2)) 
+      (node 
+        (ref R118) 
+        (pin 2)) 
+      (node 
+        (ref R109) 
+        (pin 2)) 
+      (node 
+        (ref D11) 
+        (pin C)) 
+      (node 
+        (ref R138) 
+        (pin 2)) 
+      (node 
+        (ref P26) 
+        (pin 2))) 
+    (net 
+      (code 94) 
+      (name "Net-(C53-Pad2)") 
+      (node 
+        (ref C53) 
+        (pin 2)) 
+      (node 
+        (ref U9) 
+        (pin 5)) 
+      (node 
+        (ref R134) 
+        (pin 1))) 
+    (net 
+      (code 95) 
+      (name "Net-(C45-Pad2)") 
+      (node 
+        (ref U9) 
+        (pin 3)) 
+      (node 
+        (ref C45) 
+        (pin 2)) 
+      (node 
+        (ref R113) 
+        (pin 1))) 
+    (net 
+      (code 96) 
+      (name "Net-(C49-Pad2)") 
+      (node 
+        (ref U9) 
+        (pin 2)) 
+      (node 
+        (ref R118) 
+        (pin 1)) 
+      (node 
+        (ref C49) 
+        (pin 2)) 
+      (node 
+        (ref R122) 
+        (pin 2))) 
+    (net 
+      (code 97) 
+      (name "Net-(C57-Pad1)") 
+      (node 
+        (ref C57) 
+        (pin 1)) 
+      (node 
+        (ref U9) 
+        (pin 10)) 
+      (node 
+        (ref U9) 
+        (pin 7)) 
+      (node 
+        (ref R142) 
+        (pin 1))) 
+    (net 
+      (code 98) 
+      (name "Net-(C26-Pad2)") 
+      (node 
+        (ref R42) 
+        (pin 1)) 
+      (node 
+        (ref C26) 
+        (pin 2)) 
+      (node 
+        (ref U5) 
+        (pin 6)) 
+      (node 
+        (ref R46) 
+        (pin 2))) 
+    (net 
+      (code 99) 
+      (name "Net-(C22-Pad2)") 
+      (node 
+        (ref U5) 
+        (pin 5)) 
+      (node 
+        (ref R37) 
+        (pin 1)) 
+      (node 
+        (ref C22) 
+        (pin 2))) 
+    (net 
+      (code 100) 
+      (name "Net-(C13-Pad2)") 
+      (node 
+        (ref C13) 
+        (pin 2)) 
+      (node 
+        (ref U5) 
+        (pin 3)) 
+      (node 
+        (ref R14) 
+        (pin 1))) 
+    (net 
+      (code 101) 
+      (name "Net-(C18-Pad2)") 
+      (node 
+        (ref C18) 
+        (pin 2)) 
+      (node 
+        (ref R18) 
+        (pin 1)) 
+      (node 
+        (ref R22) 
+        (pin 2)) 
+      (node 
+        (ref U5) 
+        (pin 2))) 
+    (net 
+      (code 102) 
+      (name VRef_3) 
+      (node 
+        (ref R18) 
+        (pin 2)) 
+      (node 
+        (ref D4) 
+        (pin C)) 
+      (node 
+        (ref R10) 
+        (pin 2)) 
+      (node 
+        (ref R42) 
+        (pin 2)) 
+      (node 
+        (ref R14) 
+        (pin 2)) 
+      (node 
+        (ref R37) 
+        (pin 2)) 
+      (node 
+        (ref U5) 
+        (pin 12)) 
+      (node 
+        (ref P9) 
+        (pin 2))) 
+    (net 
+      (code 103) 
+      (name "Net-(C26-Pad1)") 
+      (node 
+        (ref R46) 
+        (pin 1)) 
+      (node 
+        (ref U5) 
+        (pin 10)) 
+      (node 
+        (ref C26) 
+        (pin 1)) 
+      (node 
+        (ref U5) 
+        (pin 7))) 
+    (net 
+      (code 104) 
+      (name "Net-(C33-Pad1)") 
+      (node 
+        (ref U12) 
+        (pin 1)) 
+      (node 
+        (ref R81) 
+        (pin 1)) 
+      (node 
+        (ref C33) 
+        (pin 1)) 
+      (node 
+        (ref R73) 
+        (pin 1))) 
+    (net 
+      (code 105) 
+      (name "Net-(U12-Pad13)") 
+      (node 
+        (ref U12) 
+        (pin 14)) 
+      (node 
+        (ref U12) 
+        (pin 13))) 
+    (net 
+      (code 106) 
+      (name VRef_2) 
+      (node 
+        (ref U12) 
+        (pin 12)) 
+      (node 
+        (ref R85) 
+        (pin 2)) 
+      (node 
+        (ref R61) 
+        (pin 2)) 
+      (node 
+        (ref D7) 
+        (pin C)) 
+      (node 
+        (ref R89) 
+        (pin 2)) 
+      (node 
+        (ref P18) 
+        (pin 2)) 
+      (node 
+        (ref R69) 
+        (pin 2)) 
+      (node 
+        (ref R65) 
+        (pin 2))) 
+    (net 
+      (code 107) 
+      (name "Net-(C18-Pad1)") 
+      (node 
+        (ref R22) 
+        (pin 1)) 
+      (node 
+        (ref U5) 
+        (pin 1)) 
+      (node 
+        (ref C18) 
+        (pin 1)) 
+      (node 
+        (ref R30) 
+        (pin 1))) 
+    (net 
+      (code 108) 
+      (name "Net-(C30-Pad2)") 
+      (node 
+        (ref R66) 
+        (pin 1)) 
+      (node 
+        (ref U11) 
+        (pin 3)) 
+      (node 
+        (ref C30) 
+        (pin 2))) 
+    (net 
+      (code 109) 
+      (name "Net-(C38-Pad2)") 
+      (node 
+        (ref R86) 
+        (pin 1)) 
+      (node 
+        (ref U11) 
+        (pin 5)) 
+      (node 
+        (ref C38) 
+        (pin 2))) 
+    (net 
+      (code 110) 
+      (name VRef_4) 
+      (node 
+        (ref R62) 
+        (pin 2)) 
+      (node 
+        (ref U11) 
+        (pin 12)) 
+      (node 
+        (ref R86) 
+        (pin 2)) 
+      (node 
+        (ref R66) 
+        (pin 2)) 
+      (node 
+        (ref R90) 
+        (pin 2)) 
+      (node 
+        (ref R70) 
+        (pin 2)) 
+      (node 
+        (ref P19) 
+        (pin 2)) 
+      (node 
+        (ref D8) 
+        (pin C))) 
+    (net 
+      (code 111) 
+      (name "Net-(C34-Pad2)") 
+      (node 
+        (ref R70) 
+        (pin 1)) 
+      (node 
+        (ref R74) 
+        (pin 2)) 
+      (node 
+        (ref U11) 
+        (pin 2)) 
+      (node 
+        (ref C34) 
+        (pin 2))) 
+    (net 
+      (code 112) 
+      (name "Net-(C42-Pad1)") 
+      (node 
+        (ref U11) 
+        (pin 10)) 
+      (node 
+        (ref C42) 
+        (pin 1)) 
+      (node 
+        (ref U11) 
+        (pin 7)) 
+      (node 
+        (ref R94) 
+        (pin 1))) 
+    (net 
+      (code 113) 
+      (name "Net-(C42-Pad2)") 
+      (node 
+        (ref U11) 
+        (pin 6)) 
+      (node 
+        (ref R90) 
+        (pin 1)) 
+      (node 
+        (ref C42) 
+        (pin 2)) 
+      (node 
+        (ref R94) 
+        (pin 2))) 
+    (net 
+      (code 114) 
+      (name "Net-(U5-Pad13)") 
+      (node 
+        (ref U5) 
+        (pin 14)) 
+      (node 
+        (ref U5) 
+        (pin 13))) 
+    (net 
+      (code 115) 
+      (name "Net-(C34-Pad1)") 
+      (node 
+        (ref C34) 
+        (pin 1)) 
+      (node 
+        (ref U11) 
+        (pin 1)) 
+      (node 
+        (ref R74) 
+        (pin 1)) 
+      (node 
+        (ref R82) 
+        (pin 1))) 
+    (net 
+      (code 116) 
+      (name "Net-(C41-Pad2)") 
+      (node 
+        (ref R89) 
+        (pin 1)) 
+      (node 
+        (ref R93) 
+        (pin 2)) 
+      (node 
+        (ref C41) 
+        (pin 2)) 
+      (node 
+        (ref U12) 
+        (pin 6))) 
+    (net 
+      (code 117) 
+      (name /HeartBeat/HB4-P) 
+      (node 
+        (ref R78) 
+        (pin 2)) 
+      (node 
+        (ref P15) 
+        (pin 2))) 
+    (net 
+      (code 118) 
+      (name /HeartBeat/HB1-S) 
+      (node 
+        (ref R5) 
+        (pin 2)) 
+      (node 
+        (ref P11) 
+        (pin 3)) 
+      (node 
+        (ref C12) 
+        (pin 1))) 
+    (net 
+      (code 119) 
+      (name "Net-(C25-Pad1)") 
+      (node 
+        (ref C25) 
+        (pin 1)) 
+      (node 
+        (ref U6) 
+        (pin 10)) 
+      (node 
+        (ref U6) 
+        (pin 7)) 
+      (node 
+        (ref R45) 
+        (pin 1))) 
+    (net 
+      (code 120) 
+      (name "Net-(C25-Pad2)") 
+      (node 
+        (ref R45) 
+        (pin 2)) 
+      (node 
+        (ref U6) 
+        (pin 6)) 
+      (node 
+        (ref C25) 
+        (pin 2)) 
+      (node 
+        (ref R41) 
+        (pin 1))) 
+    (net 
+      (code 121) 
+      (name "Net-(U6-Pad13)") 
+      (node 
+        (ref U6) 
+        (pin 14)) 
+      (node 
+        (ref U6) 
+        (pin 13))) 
+    (net 
+      (code 122) 
+      (name /HeartBeat/HB1-P) 
+      (node 
+        (ref P11) 
+        (pin 2)) 
+      (node 
+        (ref R38) 
+        (pin 2))) 
+    (net 
+      (code 123) 
+      (name "Net-(C16-Pad2)") 
+      (node 
+        (ref R21) 
+        (pin 2)) 
+      (node 
+        (ref C16) 
+        (pin 2)) 
+      (node 
+        (ref R17) 
+        (pin 1)) 
+      (node 
+        (ref U6) 
+        (pin 2))) 
+    (net 
+      (code 124) 
+      (name "Net-(C16-Pad1)") 
+      (node 
+        (ref R21) 
+        (pin 1)) 
+      (node 
+        (ref U6) 
+        (pin 1)) 
+      (node 
+        (ref R31) 
+        (pin 1)) 
+      (node 
+        (ref C16) 
+        (pin 1))) 
+    (net 
+      (code 125) 
+      (name VRef_1) 
+      (node 
+        (ref R41) 
+        (pin 2)) 
+      (node 
+        (ref P10) 
+        (pin 2)) 
+      (node 
+        (ref D3) 
+        (pin C)) 
+      (node 
+        (ref U6) 
+        (pin 12)) 
+      (node 
+        (ref R17) 
+        (pin 2)) 
+      (node 
+        (ref R13) 
+        (pin 2)) 
+      (node 
+        (ref R9) 
+        (pin 2)) 
+      (node 
+        (ref R36) 
+        (pin 2))) 
+    (net 
+      (code 126) 
+      (name "Net-(C21-Pad2)") 
+      (node 
+        (ref C21) 
+        (pin 2)) 
+      (node 
+        (ref U6) 
+        (pin 5)) 
+      (node 
+        (ref R36) 
+        (pin 1))) 
+    (net 
+      (code 127) 
+      (name "Net-(C12-Pad2)") 
+      (node 
+        (ref U6) 
+        (pin 3)) 
+      (node 
+        (ref C12) 
+        (pin 2)) 
+      (node 
+        (ref R13) 
+        (pin 1))) 
+    (net 
+      (code 128) 
+      (name "Net-(C41-Pad1)") 
+      (node 
+        (ref C41) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 7)) 
+      (node 
+        (ref R93) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 10))) 
+    (net 
+      (code 129) 
+      (name "Net-(C37-Pad2)") 
+      (node 
+        (ref C37) 
+        (pin 2)) 
+      (node 
+        (ref U12) 
+        (pin 5)) 
+      (node 
+        (ref R85) 
+        (pin 1))) 
+    (net 
+      (code 130) 
+      (name /HeartBeat/HB2-S) 
+      (node 
+        (ref C29) 
+        (pin 1)) 
+      (node 
+        (ref P14) 
+        (pin 3)) 
+      (node 
+        (ref R57) 
+        (pin 2))) 
+    (net 
+      (code 131) 
+      (name /HeartBeat/HB2-P) 
+      (node 
+        (ref R77) 
+        (pin 2)) 
+      (node 
+        (ref P14) 
+        (pin 2))) 
+    (net 
+      (code 132) 
+      (name "Net-(C33-Pad2)") 
+      (node 
+        (ref U12) 
+        (pin 2)) 
+      (node 
+        (ref R73) 
+        (pin 2)) 
+      (node 
+        (ref C33) 
+        (pin 2)) 
+      (node 
+        (ref R69) 
+        (pin 1))) 
+    (net 
+      (code 133) 
+      (name "Net-(C29-Pad2)") 
+      (node 
+        (ref R65) 
+        (pin 1)) 
+      (node 
+        (ref C29) 
+        (pin 2)) 
+      (node 
+        (ref U12) 
+        (pin 3))) 
+    (net 
+      (code 134) 
+      (name /HeartBeat/HB7-S) 
+      (node 
+        (ref C8) 
+        (pin 1)) 
+      (node 
+        (ref P5) 
+        (pin 3)) 
+      (node 
+        (ref R4) 
+        (pin 2))) 
+    (net 
+      (code 135) 
+      (name /HeartBeat/HB7-P) 
+      (node 
+        (ref P5) 
+        (pin 2)) 
+      (node 
+        (ref R24) 
+        (pin 2))) 
+    (net 
+      (code 136) 
+      (name "Net-(U13-Pad13)") 
+      (node 
+        (ref U13) 
+        (pin 13)) 
+      (node 
+        (ref U13) 
+        (pin 14))) 
+    (net 
+      (code 137) 
+      (name VRef_6) 
+      (node 
+        (ref P17) 
+        (pin 2)) 
+      (node 
+        (ref U13) 
+        (pin 12)) 
+      (node 
+        (ref R67) 
+        (pin 2)) 
+      (node 
+        (ref R63) 
+        (pin 2)) 
+      (node 
+        (ref R83) 
+        (pin 2)) 
+      (node 
+        (ref R59) 
+        (pin 2)) 
+      (node 
+        (ref D5) 
+        (pin C)) 
+      (node 
+        (ref R87) 
+        (pin 2))) 
+    (net 
+      (code 138) 
+      (name "Net-(C15-Pad2)") 
+      (node 
+        (ref U15) 
+        (pin 2)) 
+      (node 
+        (ref C15) 
+        (pin 2)) 
+      (node 
+        (ref R20) 
+        (pin 2)) 
+      (node 
+        (ref R16) 
+        (pin 1))) 
+    (net 
+      (code 139) 
+      (name "Net-(C15-Pad1)") 
+      (node 
+        (ref C15) 
+        (pin 1)) 
+      (node 
+        (ref R28) 
+        (pin 1)) 
+      (node 
+        (ref U15) 
+        (pin 1)) 
+      (node 
+        (ref R20) 
+        (pin 1))) 
+    (net 
+      (code 140) 
+      (name "Net-(C39-Pad1)") 
+      (node 
+        (ref R91) 
+        (pin 1)) 
+      (node 
+        (ref U13) 
+        (pin 10)) 
+      (node 
+        (ref C39) 
+        (pin 1)) 
+      (node 
+        (ref U13) 
+        (pin 7))) 
+    (net 
+      (code 141) 
+      (name "Net-(C39-Pad2)") 
+      (node 
+        (ref R91) 
+        (pin 2)) 
+      (node 
+        (ref C39) 
+        (pin 2)) 
+      (node 
+        (ref U13) 
+        (pin 6)) 
+      (node 
+        (ref R87) 
+        (pin 1))) 
+    (net 
+      (code 142) 
+      (name /HeartBeat/HB6-P) 
+      (node 
+        (ref P12) 
+        (pin 2)) 
+      (node 
+        (ref R75) 
+        (pin 2))) 
+    (net 
+      (code 143) 
+      (name /HeartBeat/HB6-S) 
+      (node 
+        (ref R55) 
+        (pin 2)) 
+      (node 
+        (ref P12) 
+        (pin 3)) 
+      (node 
+        (ref C27) 
+        (pin 1))) 
+    (net 
+      (code 144) 
+      (name "Net-(C31-Pad2)") 
+      (node 
+        (ref R71) 
+        (pin 2)) 
+      (node 
+        (ref R67) 
+        (pin 1)) 
+      (node 
+        (ref C31) 
+        (pin 2)) 
+      (node 
+        (ref U13) 
+        (pin 2))) 
+    (net 
+      (code 145) 
+      (name "Net-(U15-Pad13)") 
+      (node 
+        (ref U15) 
+        (pin 14)) 
+      (node 
+        (ref U15) 
+        (pin 13))) 
+    (net 
+      (code 146) 
+      (name "Net-(C24-Pad2)") 
+      (node 
+        (ref U15) 
+        (pin 6)) 
+      (node 
+        (ref R40) 
+        (pin 1)) 
+      (node 
+        (ref C24) 
+        (pin 2)) 
+      (node 
+        (ref R44) 
+        (pin 2))) 
+    (net 
+      (code 147) 
+      (name "Net-(R49-Pad1)") 
+      (node 
+        (ref U15) 
+        (pin 9)) 
+      (node 
+        (ref U15) 
+        (pin 8)) 
+      (node 
+        (ref R49) 
+        (pin 1))) 
+    (net 
+      (code 148) 
+      (name VRef_7) 
+      (node 
+        (ref U15) 
+        (pin 12)) 
+      (node 
+        (ref R12) 
+        (pin 2)) 
+      (node 
+        (ref R16) 
+        (pin 2)) 
+      (node 
+        (ref D2) 
+        (pin C)) 
+      (node 
+        (ref R35) 
+        (pin 2)) 
+      (node 
+        (ref R8) 
+        (pin 2)) 
+      (node 
+        (ref P7) 
+        (pin 2)) 
+      (node 
+        (ref R40) 
+        (pin 2))) 
+    (net 
+      (code 149) 
+      (name "Net-(C20-Pad2)") 
+      (node 
+        (ref U15) 
+        (pin 5)) 
+      (node 
+        (ref C20) 
+        (pin 2)) 
+      (node 
+        (ref R35) 
+        (pin 1))) 
+    (net 
+      (code 150) 
+      (name "Net-(C8-Pad2)") 
+      (node 
+        (ref C8) 
+        (pin 2)) 
+      (node 
+        (ref U15) 
+        (pin 3)) 
+      (node 
+        (ref R12) 
+        (pin 1))) 
+    (net 
+      (code 151) 
+      (name "Net-(C24-Pad1)") 
+      (node 
+        (ref C24) 
+        (pin 1)) 
+      (node 
+        (ref U15) 
+        (pin 7)) 
+      (node 
+        (ref R44) 
+        (pin 1)) 
+      (node 
+        (ref U15) 
+        (pin 10))) 
+    (net 
+      (code 152) 
+      (name /HeartBeat/HB4-S) 
+      (node 
+        (ref P15) 
+        (pin 3)) 
+      (node 
+        (ref C30) 
+        (pin 1)) 
+      (node 
+        (ref R58) 
+        (pin 2))) 
+    (net 
+      (code 153) 
+      (name VRef_5) 
+      (node 
+        (ref R15) 
+        (pin 2)) 
+      (node 
+        (ref P8) 
+        (pin 2)) 
+      (node 
+        (ref R11) 
+        (pin 2)) 
+      (node 
+        (ref U10) 
+        (pin 12)) 
+      (node 
+        (ref R39) 
+        (pin 2)) 
+      (node 
+        (ref R7) 
+        (pin 2)) 
+      (node 
+        (ref D1) 
+        (pin C)) 
+      (node 
+        (ref R32) 
+        (pin 2))) 
+    (net 
+      (code 154) 
+      (name "Net-(C7-Pad2)") 
+      (node 
+        (ref C7) 
+        (pin 2)) 
+      (node 
+        (ref U10) 
+        (pin 3)) 
+      (node 
+        (ref R11) 
+        (pin 1))) 
+    (net 
+      (code 155) 
+      (name "Net-(C14-Pad2)") 
+      (node 
+        (ref R15) 
+        (pin 1)) 
+      (node 
+        (ref R19) 
+        (pin 2)) 
+      (node 
+        (ref C14) 
+        (pin 2)) 
+      (node 
+        (ref U10) 
+        (pin 2))) 
+    (net 
+      (code 156) 
+      (name "Net-(C23-Pad2)") 
+      (node 
+        (ref R43) 
+        (pin 2)) 
+      (node 
+        (ref R39) 
+        (pin 1)) 
+      (node 
+        (ref C23) 
+        (pin 2)) 
+      (node 
+        (ref U10) 
+        (pin 6))) 
+    (net 
+      (code 157) 
+      (name "Net-(C19-Pad2)") 
+      (node 
+        (ref C19) 
+        (pin 2)) 
+      (node 
+        (ref R32) 
+        (pin 1)) 
+      (node 
+        (ref U10) 
+        (pin 5))) 
+    (net 
+      (code 158) 
+      (name "Net-(U11-Pad13)") 
+      (node 
+        (ref U11) 
+        (pin 14)) 
+      (node 
+        (ref U11) 
+        (pin 13))) 
+    (net 
+      (code 159) 
+      (name /HeartBeat/HB5-S) 
+      (node 
+        (ref R3) 
+        (pin 2)) 
+      (node 
+        (ref C7) 
+        (pin 1)) 
+      (node 
+        (ref P3) 
+        (pin 3))) 
+    (net 
+      (code 160) 
+      (name /HeartBeat/HB5-P) 
+      (node 
+        (ref P3) 
+        (pin 2)) 
+      (node 
+        (ref R23) 
+        (pin 2))) 
+    (net 
+      (code 161) 
+      (name "Net-(C35-Pad2)") 
+      (node 
+        (ref U13) 
+        (pin 5)) 
+      (node 
+        (ref R83) 
+        (pin 1)) 
+      (node 
+        (ref C35) 
+        (pin 2))) 
+    (net 
+      (code 162) 
+      (name "Net-(C27-Pad2)") 
+      (node 
+        (ref U13) 
+        (pin 3)) 
+      (node 
+        (ref C27) 
+        (pin 2)) 
+      (node 
+        (ref R63) 
+        (pin 1))) 
+    (net 
+      (code 163) 
+      (name "Net-(C23-Pad1)") 
+      (node 
+        (ref U10) 
+        (pin 7)) 
+      (node 
+        (ref R43) 
+        (pin 1)) 
+      (node 
+        (ref U10) 
+        (pin 10)) 
+      (node 
+        (ref C23) 
+        (pin 1))) 
+    (net 
+      (code 164) 
+      (name "Net-(C14-Pad1)") 
+      (node 
+        (ref C14) 
+        (pin 1)) 
+      (node 
+        (ref U10) 
+        (pin 1)) 
+      (node 
+        (ref R19) 
+        (pin 1)) 
+      (node 
+        (ref R29) 
+        (pin 1))) 
+    (net 
+      (code 165) 
+      (name "Net-(U10-Pad13)") 
+      (node 
+        (ref U10) 
+        (pin 14)) 
+      (node 
+        (ref U10) 
+        (pin 13))) 
+    (net 
+      (code 166) 
+      (name "Net-(R116-Pad2)") 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref R116) 
+        (pin 2))) 
+    (net 
+      (code 167) 
+      (name "Net-(BT3-Pad+)") 
+      (node 
+        (ref R116) 
+        (pin 1)) 
+      (node 
+        (ref C61) 
+        (pin 2)) 
+      (node 
+        (ref BT3) 
+        (pin +))) 
+    (net 
+      (code 168) 
+      (name "Net-(U1-Pad7)") 
+      (node 
+        (ref U1) 
+        (pin 7))) 
+    (net 
+      (code 169) 
+      (name "Net-(U1-Pad3)") 
+      (node 
+        (ref U1) 
+        (pin 3)))))
