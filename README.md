@@ -2,8 +2,8 @@
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
-   <td><img src="Images/Pulse_1.png" alt="Pulse_1 Image" width="300"></td>
-   <td><img src="Images/Pulse_2.png" alt="Pulse_1 Image" width="300"></td>
+   <td><img src="Images/Pulse_V1.png" alt="Pulse_V1 Image" width="300"></td>
+   <td><img src="Images/Pulse_V2.png" alt="Pulse_V2 Image" width="300"></td>
   </tr>
 </table>
 
