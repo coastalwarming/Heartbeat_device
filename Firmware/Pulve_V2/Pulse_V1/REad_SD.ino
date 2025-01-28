@@ -20,8 +20,8 @@ void readFile(fs::FS & fs, const char * path) {
     if (file.peek() == '\n') {
       linhas++;
       if (linhas > 2)break;
-      if (strstr(buffer, "=") > 0) {
-         if (strstr(buffer, "Rate_Hz=") > 0) {
+      if (strstr(buffer, "=") != nullptr) {
+         if (strstr(buffer, "Rate_Hz=") != nullptr) {
           p = strtok(buffer, "=");
           p = strtok(NULL, "=");
           if (p != NULL) {

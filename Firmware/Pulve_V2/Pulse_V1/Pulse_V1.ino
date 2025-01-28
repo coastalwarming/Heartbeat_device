@@ -6,6 +6,11 @@
 #include <FS.h>//Filesystem access to SD card.
 File file;
 
+//LEDs
+const int Green_LED_PIN =  4;// GPIO for green LED.
+const int Red_LED_PIN =  13;// GPIO for red LED.
+
+
 //TIMER + RTC
 #include <SparkFun_RV3032.h>
 #include <ESP32Time.h>
@@ -25,6 +30,7 @@ int year_ = 0, month_ = 0, day_ = 0, hour_ = 0, minute_ = 0, second_ = 0;
 volatile int millisecond = 0;
 volatile int adc_reading = 0;
 portMUX_TYPE timerMux = portMUX_INITIALIZER_UNLOCKED;
+unsigned long previousMillis_1 = 0, previousMillis_2 = 0;
 
 //TIMER + RTC
 //#define rtc_adjust//Uncomment to adjust time!!!
@@ -45,6 +51,10 @@ void setup() {
 #endif
   //
 
+  //GPIO
+  pinMode(4, OUTPUT);//Green LED
+  pinMode(13, OUTPUT);//RED LED
+
   //MicroSD:
   start_sd();
   //
@@ -52,7 +62,7 @@ void setup() {
   if (!No_SD) {
     readFile(SD, "/Pulse_settings.txt");
     delay_ = 1000 / Rate_Hz;
-  } else delay_ = 50;
+  } else Blink_Red_LED();
 
   if (!No_settings_file)delay_ = 50;
 
@@ -71,5 +81,6 @@ void setup() {
 }
 
 void loop() {
+  Blink_Green_LED();
   Read_and_store_samples();
 }

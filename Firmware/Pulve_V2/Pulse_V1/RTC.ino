@@ -1,6 +1,7 @@
 void start_rtc() {
   if (!Outrtc.begin()) {
     Outrtc_working = false;
+    Blink_Red_LED();
     return;
   } else {
     Set_registers_OUTRTC();
