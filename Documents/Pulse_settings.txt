@@ -19,144 +19,88 @@ S8=Sensor_8
 S9=Sensor_9
 S10=Sensor_10
 
-
 //--------------------------------------------------------------//
-Wifi=My-Wifi-SSID
-Wifi_pass=mypassword
-Wifi=Meuwifi_2
-Wifi_pass=passdowifi
-// For use with firmware version Pulse >v2.19:                   //
-// PLEASE refer to the instructions manual for more info.       //
+//                 EXAMPLE NETWORK SETTINGS                     //
 //--------------------------------------------------------------//
-//--||--||--||--||--||--||--||--||--||--||--||--||--||--||--||--//
+Wifi=My-Wifi-SSID 						//
+Wifi_pass=mypassword 						//
+//--------------------------------------------------------------//
+//                 DEVICE CONFIGURATION                         //
 //--------------------------------------------------------------//
 // Device_name                                                  //
-//   an identifier for the PULSE logger                         //
-//   DO NOT use spaces ('Pulse_xyz', not 'logger xyz').         //
-//   DO NOT use '=' or '.'                                      //
-//   preferably stick to only "abc..z", "0-9", "_" and "-"   .  //
-//   preferably use an device name with 12 characters or less . //
-//   If left blank, Device will be named 'Pulse'.               //
+//   Identifier for the PULSE logger.                           //
+//   - DO NOT use spaces ('Pulse_xyz', not 'logger xyz').       //
+//   - DO NOT use '=' or '.'.                                   //
+//   - Preferably use only "a-z", "0-9", "_" and "-".           //
+//   - Keep it 12 characters or less for best compatibility.    //
+//   - If left blank, the device will be named 'Pulse'.         //
 //--------------------------------------------------------------//
 // Rate_Hz                                                      //
-//   Rate at which voltage values are read in integer Hz        //
-//   , no decimals.                                             //
-//   Use the lowest possible Rate_Hz to avoid oversampling.     //
-//   Typically 20 works well (readings every 50 milliseconds).  //
-//   A Rate_Hz that is too high may degrade system performance. //
-//   A Rate_Hz that is too low results in ladder-like data.     //
-//   Rate_Hz is limited between 5Hz and 25Hz.                   //
-//   If left blank, Rate_Hz will be set to 10Hz.                //
+//   Sampling rate in Hz (integer only).                        //
+//   - Recommended: 20 Hz (every 50 ms).                        //
+//   - Minimum: 5 Hz, Maximum: 25 Hz.                           //
+//   - A high rate may degrade performance.                     //
+//   - A low rate may result in ladder-like data.               //
+//   - Default: 10 Hz if left blank.                            //
 //--------------------------------------------------------------//
 // Wifi                                                         //
-//   Name of Wifi network used to communicate via FTP.          //
-//   Limited to 14 characters.                                  //
-//   If left blank, there will not be an attempt to connect to  //
-//   any wifi network in "Remote access mode", it will go       //
-//   directly to Access point named 'Pulse_EB' with equal       //
-//   password.                                                  //
+//   Name of the WiFi network for FTP communication.            //
+//   - Limited to 14 characters.                                //
+//   - If left blank, the device will skip WiFi setup.          //
+//   - Instead, it will go directly to Access Point 'Pulse_EB'. //
 //--------------------------------------------------------------//
 // Wifi_pass                                                    //
-//   Password for the given Wifi network.                       //
-//   Limited to 30 characters.                                  //
+//   Password for the specified WiFi network.                   //
+//   - Limited to 30 characters.                                //
 //--------------------------------------------------------------//
 // Local_time_zone                                              //
-//   Local_time_zone is the local adjustment to                 //
-//   the UTC (Universal Time Coordinated.)                      //
-//   This will be the hours added and reduced to the UTC0.      //
-//   Clock adjustment made when internet acess is provided will //
-//   have this value in consideration.                          //
-//   Accepts float values from -12 to 12 with decimal.          //
-//   For example: accepts '1' or '0.5' or '-5.5                 //
-//   If given value is outside this limits, Local_time_zone     //
-//   will be set to zero.                                       //
-//   The time clock shown in the display and the CSV files      //
-//   stored in the internal memory will have this Time          //
-//   adjustment.                                                //
+//   Time zone offset from UTC.                                 //
+//   - Accepts values from -12 to 12, including decimals.       //
+//   - Example: '1', '0.5', '-5.5'.                             //
+//   - If out of bounds, it defaults to zero.                   //
+//   - Affects displayed time and timestamps in CSV files.      //
 //--------------------------------------------------------------//
 // DST                                                          //
-//   DST means Daylight saving Time.                            //
-//   This can be set to 'Yes' or 'yes' to consider              //
-//   summer time adjustment (+1 hour).                          //
-//   Simply 'Y' or 'y' are also accepted as poitive choice.     //
-//   Any other text will be considered as negative choice,      //
-//   meaning no extra hour will be added.                       //
-//   For clarity just insert 'Yes' or 'No'.                     //
-//   The time clock shown in the display and the CSV files      //
-//   stored in the internal memory will have this Time          //
-//   adjustment.                                                //
+//   Daylight Saving Time (DST) setting.                        //
+//   - Acceptable inputs: 'Yes', 'yes', 'Y', 'y'.               //
+//   - Any other text is treated as 'No'.                       //
+//   - Affects displayed time and timestamps in CSV files.      //
 //--------------------------------------------------------------//
 // Display_duration                                             //
-//   This will be the maximum amount of seconds displayed in    //
-//   the plot window.                                           //
-//   This value does not affect the collecting of data, or the  //
-//   storage in the internal memory.                            //
-//   There is a minimum of 5 seconds and maximum of 60 seconds. //
-//   Values that surpass limits will be caped to the closest    //
-//   limit.                                                     //
-//   Only intenger values are accpeted (no decimals; e.g.:'10'  //
-//   and not '10.2'.                                            //
-//   If left blank or value not recognised Window_Sec will be   //
-//   set to 10 seconds.                                         //
+//   Maximum time (in seconds) for the display plot window.     //
+//   - Minimum: 5s, Maximum: 60s.                               //
+//   - Out-of-range values are capped.                          //
+//   - Only integer values allowed.                             //
+//   - Defaults to 10s if left blank or invalid.                //
 //--------------------------------------------------------------//
-// Sessions							//
-//   Sessions determines if data recording is to be continuous  //
-//   or by sessions.                            		//
-//   This can be set to 'Yes' or 'yes' to consider              //
-//   recording by Sessions.                                     //
-//   Simply 'Y' or 'y' are also accepted as positive choice.     //
-//   Any other text will be considered as negative choice,      //
-//   meaning recording will be Continuous mode.                 //
-//   For clarity just insert 'Yes' or 'No'.                     //
-//   When in continuous recording (Sessions is negative),       //
-//   the recording will be made continuously, and in files 	//
-//   separated by hours. 					//
-//   When recording in sessions (Sessions is positive),         //
-//   the recording will only take place during the 		//
-//   Record duration (see Record and Sleep settings below).	//
-//   During sessions mode, files will be stored by sessions 	//
-//   individually.						//
+//                 DATA RECORDING SETTINGS                      //
 //--------------------------------------------------------------//
-// Record							//
-//   Record means the number of minutes that will be record in 	//
-//   each session.						//
-//   Every session will be saved in an individual CSV file.	//
-//   After a Record has finished, Pulse will wait for the end //
-//   of the Sleep duration before starting the Record of a 	//
-//   new session.						//
-//   If the Sessions setting is set to negative, both Record    //
-//   and Sleep settings are ignored, and the Pulse will always 	//
-//   be recording in Continuous mode.				//
-//   The Record setting has a minimum of 1 minute and maximum 	//
-//   of 1440 minutes.						//
-//   Values that surpass limits will be caped to the closest    //
-//   limit.                                                     //
-//   Only integer values are accepted (no decimals, e.g.:'10'  //
-//   and not '10.2'.                                            //
-//   If left blank or value not recognised, Sessions setting 	//
-//   will be set to negative and recording will be continuous.	//
+// Sessions                                                     //
+//   Determines recording mode:                                 //
+//   - 'Yes'/'Y'/'y' → Session-based recording.                 //
+//   - 'No' (or any other text) → Continuous recording.         //
+//   - In continuous mode, data is saved hourly.                //
+//   - In session mode, recordings follow Record/Sleep cycles.  //
 //--------------------------------------------------------------//
-// Sleep							//
-//   Sleep means the number of minutes that are not recorded in //
-//   each session.						//
-//   After a Sleep has finished, Pulse will begin a new 	//
-//   Record in a new CSV file. 					//
-//   If the Sessions setting is set to negative, both Record    //
-//   and Sleep settings are ignored, and the Pulse will always 	//
-//   be recording in Continuous mode.				//
-//   The Sleep setting has a minimum of 1 minute and maximum 	//
-//   of 1440 minutes.						//
-//   Values that surpass limits will be caped to the closest    //
-//   limit.                                                     //
-//   Only integer values are accepted (no decimals, e.g.:'10'  //
-//   and not '10.2'.                                            //
-//   If left blank or value not recognised, Sessions setting 	//
-//   will be set to negative and recording will be continuous.	//
+// Record                                                       //
+//   Duration (in minutes) of each recording session.           //
+//   - Minimum: 1 min, Maximum: 1440 min.                       //
+//   - Out-of-range values are capped.                          //
+//   - Only integer values allowed.                             //
+//   - Ignored in continuous mode.                              //
 //--------------------------------------------------------------//
-// S1, S2, S3, ... S10                                          //
-//   An identifier for each PULSE channel.                      //
-//   Only use letters and numbers.                              //
-//   Limited to 12 characters.                                  //
-//   If left blank, sensor will be named with their number,     //
-//   e.g.: sensor 1 will be named 'S1',and sensor 2 named 'S2'. //
+// Sleep                                                        //
+//   Duration (in minutes) between recording sessions.          //
+//   - Minimum: 1 min, Maximum: 1440 min.                       //
+//   - Out-of-range values are capped.                          //
+//   - Only integer values allowed.                             //
+//   - Ignored in continuous mode.                              //
+//--------------------------------------------------------------//
+//                 SENSOR IDENTIFIERS                           //
+//--------------------------------------------------------------//
+// S1, S2, S3 ... S10                                          //
+//   Custom labels for each PULSE sensor.                       //
+//   - Limited to 12 characters.                                //
+//   - Only letters and numbers allowed.                        //
+//   - Defaults to 'S1', 'S2', etc., if left blank.             //
 //--------------------------------------------------------------//
