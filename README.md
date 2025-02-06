@@ -2,7 +2,7 @@
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
-   <td><img src="Images/Heartbeat device.png" alt="Heartbeat device Image" width="600"></td>
+   <td><img src="Images/Heartbeat_device.png" alt="Heartbeat device Image" width="600"></td>
   </tr>
 </table>
 
