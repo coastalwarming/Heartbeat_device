@@ -1,0 +1,4188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\OneDrive - Universidade do Porto\Electronics\5_Kicad_SVN\ESPulse\Main board\trunk\ESPulse.kicad_sch</source>
+    <date>08/11/2023 19:44:25</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESPulse.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RTC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HeartBeat.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="3.3vReg1">
+      <value>REG_Recom</value>
+      <footprint>lsts-devices:R-78HBxxx-0.5</footprint>
+      <datasheet>P7803-2000-S</datasheet>
+      <libsource lib="ESPulse-rescue" part="REG_Recom-lsts-regul" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000623c4966</tstamps>
+    </comp>
+    <comp ref="5vReg1">
+      <value>GEN_REGULATOR</value>
+      <footprint>lsts-devices:R-78HBxxx-0.5</footprint>
+      <datasheet>R-78B5.0-2.0</datasheet>
+      <libsource lib="lsts-regul" part="GEN_REGULATOR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628bf453</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000624c8976</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000624c89a0</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">0603YC104JAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="0603YC104JAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81b8250b-774c-450e-8f6a-20937e139f80</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">JMK107ABJ106MA-T</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="JMK107ABJ106MA-T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d70f281-1a09-45f5-8431-3921d37dd530</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22μF/50V</value>
+      <footprint>lsts-passives:CP_Elec_6.3x5.8</footprint>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000623c5890</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>22μF/10V</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000623c6041</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>22μF/10V</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006290dd72</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>FH12-34S-0.5SH_55_</value>
+      <footprint>lsts-conn:FH1234S05SH55</footprint>
+      <datasheet>https://www.hirose.com/product/download/?distributor=digikey&amp;type=2d&amp;lang=en&amp;num=FH12-34S-0.5SH(55)</datasheet>
+      <fields>
+        <field name="Description">Hirose FH12 Series 0.5mm Pitch 34 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts</field>
+        <field name="Height">2.2</field>
+        <field name="Manufacturer_Name">Hirose</field>
+        <field name="Manufacturer_Part_Number">FH12-34S-0.5SH(55)</field>
+        <field name="Mouser Part Number">798-FH12-34S-0.5SH55</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12-34S-05SH55?qs=Ux3WWAnHpjDOuK5e9SNefQ%3D%3D</field>
+      </fields>
+      <libsource lib="lsts-conn" part="FH12-34S-0.5SH_55_" description="Hirose FH12 Series 0.5mm Pitch 34 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts"/>
+      <property name="Description" value="Hirose FH12 Series 0.5mm Pitch 34 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts"/>
+      <property name="Height" value="2.2"/>
+      <property name="Mouser Part Number" value="798-FH12-34S-0.5SH55"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12-34S-05SH55?qs=Ux3WWAnHpjDOuK5e9SNefQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Hirose"/>
+      <property name="Manufacturer_Part_Number" value="FH12-34S-0.5SH(55)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <property name="ki_description" value="Hirose FH12 Series 0.5mm Pitch 34 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b647f17f-8d91-454f-8697-52170766b124</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_4x1</value>
+      <footprint>lsts-conn:43045-04YY_121314</footprint>
+      <libsource lib="lsts-conn" part="CONN_4x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c64a540d-af3b-4a69-acb9-d068118abccb</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>12V_Binder_Connector</value>
+      <footprint>lsts-conn:PIN_ARRAY_2x1</footprint>
+      <libsource lib="lsts-conn" part="CONN_1x2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24b189e4-426e-48a6-a48f-f562a5ce89e4</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_6x1</value>
+      <footprint>lsts-conn:PIN_ARRAY_6x1</footprint>
+      <libsource lib="lsts-conn" part="CONN_6x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85a05aff-b419-4483-a12b-37d042dee477</tstamps>
+    </comp>
+    <comp ref="P20">
+      <value>CONN_1x1</value>
+      <footprint>lsts-mecanical:MNT-HOLE-6by3.5mm</footprint>
+      <libsource lib="lsts-conn" part="CONN_1x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006308b214</tstamps>
+    </comp>
+    <comp ref="P21">
+      <value>CONN_1x1</value>
+      <footprint>lsts-mecanical:MNT-HOLE-6by3.5mm</footprint>
+      <libsource lib="lsts-conn" part="CONN_1x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006308b4e5</tstamps>
+    </comp>
+    <comp ref="P24">
+      <value>CONN_1x1</value>
+      <footprint>lsts-mecanical:MNT-HOLE-6by3.5mm</footprint>
+      <libsource lib="lsts-conn" part="CONN_1x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006308b637</tstamps>
+    </comp>
+    <comp ref="P25">
+      <value>CONN_1x1</value>
+      <footprint>lsts-mecanical:MNT-HOLE-6by3.5mm</footprint>
+      <libsource lib="lsts-conn" part="CONN_1x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006308b881</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000624c8970</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000624c899a</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>133c56da-6e08-4ca9-9aa0-b5cdbf88ba1c</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53a0fa43-f0a5-43af-94e5-e1c5b95494e5</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>1k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1706741-a65f-4653-a8a3-36f012635557</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>1k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c47089e0-3257-45f6-ad8c-19bcf6148526</tstamps>
+    </comp>
+    <comp ref="R108">
+      <value>1k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9c280f4-b0c0-43d1-9b5b-fc036cf39733</tstamps>
+    </comp>
+    <comp ref="R155">
+      <value>1k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23f219ed-00d9-45c0-a177-e8b1316de6ee</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RST</value>
+      <footprint>lsts-discretes:EVQP2</footprint>
+      <libsource lib="ESPulse-rescue" part="SW_PUSH-lsts-devices" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000624c8988</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>BOOT</value>
+      <footprint>lsts-discretes:EVQP2</footprint>
+      <libsource lib="ESPulse-rescue" part="SW_PUSH-lsts-devices" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000624c89b1</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>ESP32-S3-WROOM-1</value>
+      <footprint>lsts-devices:ESP32-S3-WROOM-1</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="manf#">ESP32-S3-WROOM-1-N16</field>
+      </fields>
+      <libsource lib="myDevices" part="ESP32-S3-WROOM-1" description="RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth 5, BLE, 32-bit, 3.0-3.6V, onboard antenna, SMD"/>
+      <property name="manf#" value="ESP32-S3-WROOM-1-N16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPulse.kicad_sch"/>
+      <property name="ki_description" value="RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth 5, BLE, 32-bit, 3.0-3.6V, onboard antenna, SMD"/>
+      <property name="ki_keywords" value="RF Radio BT ESP ESP32 Espressif onboard PCB antenna"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a271621-8f52-4cf1-acec-f2ae63dff0f9</tstamps>
+    </comp>
+    <comp ref="BT3">
+      <value>BATTERY_Keystone_3000</value>
+      <footprint>lsts-devices:Keystone_3000_1x12mm-CoinCell</footprint>
+      <libsource lib="ESPulse-rescue" part="BATTERY_Keystone_3000-lsts-conn" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>00000000-0000-0000-0000-000061c22ce7</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <libsource lib="lsts-passives" part="C" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>88eaf8c7-091b-45cf-aea9-818da4a560fc</tstamps>
+    </comp>
+    <comp ref="C61">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>00000000-0000-0000-0000-000061c25630</tstamps>
+    </comp>
+    <comp ref="C62">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>00000000-0000-0000-0000-000061ac3580</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>503398-1892</value>
+      <footprint>lsts-conn:uSD_503398-1892</footprint>
+      <datasheet>http://www.molex.com/webdocs/datasheets/pdf/en-us//5033981892_MEMORY_CARD_SOCKET.pdf</datasheet>
+      <fields>
+        <field name="Description">MicroSD SMT Push-Push 1.28mm height MicroSD SMT Push-Push 1.28mm height</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">503398-1892</field>
+        <field name="Mouser Part Number">538-503398-1892</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/503398-1892?qs=b0v8CoHHvSMxV%252BW12iKaSg%3D%3D</field>
+      </fields>
+      <libsource lib="lsts-conn" part="503398-1892" description="MicroSD SMT Push-Push 1.28mm height MicroSD SMT Push-Push 1.28mm height"/>
+      <property name="Description" value="MicroSD SMT Push-Push 1.28mm height MicroSD SMT Push-Push 1.28mm height"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Molex"/>
+      <property name="Manufacturer_Part_Number" value="503398-1892"/>
+      <property name="Mouser Part Number" value="538-503398-1892"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Molex/503398-1892?qs=b0v8CoHHvSMxV%252BW12iKaSg%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <property name="ki_description" value="MicroSD SMT Push-Push 1.28mm height MicroSD SMT Push-Push 1.28mm height"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>50195b8a-0082-42c4-b422-efa81cec7e2c</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>7b63a5fa-9d05-46e1-bbbe-585d1a321ba6</tstamps>
+    </comp>
+    <comp ref="R116">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>00000000-0000-0000-0000-000061c27028</tstamps>
+    </comp>
+    <comp ref="R128">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>a6433bc6-c1a8-4bb0-8c34-f8123dbf9ee8</tstamps>
+    </comp>
+    <comp ref="R129">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>6e81ae91-30f1-4b8c-9ee5-2cfed1c20545</tstamps>
+    </comp>
+    <comp ref="R132">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>9db72c61-92ea-46e3-b43b-f35537ef4288</tstamps>
+    </comp>
+    <comp ref="R133">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>e617d5f9-6071-48cf-a45a-bdc9214729b8</tstamps>
+    </comp>
+    <comp ref="R144">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>1765dbbf-944d-4092-bce2-e02e0d19322d</tstamps>
+    </comp>
+    <comp ref="R145">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>ec71a274-538a-4d62-93e9-2193d1b236e0</tstamps>
+    </comp>
+    <comp ref="R146">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>581daa0d-cbab-4a81-ad01-1b99c4f0d5aa</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>RV-3032-C7</value>
+      <footprint>lsts-devices:RV-3028-C7</footprint>
+      <datasheet>https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-3032-C7_App-Manual.pdf</datasheet>
+      <libsource lib="ESPulse-rescue" part="RV-3032-C7-lsts-devices" description=""/>
+      <property name="Sheetname" value="SD_RTC"/>
+      <property name="Sheetfile" value="RTC.kicad_sch"/>
+      <sheetpath names="/SD_RTC/" tstamps="/00000000-0000-0000-0000-000062a21771/"/>
+      <tstamps>00000000-0000-0000-0000-000061c15736</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9be9</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9e85</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005e938bf0</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062373292</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9bb2</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9e4e</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005e9b0c65</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006237325b</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9bf0</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9e8c</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005ea0fbb9</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062373299</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9c13</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9eaf</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005eaa95f9</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623732bc</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d37</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9fd3</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a9cd</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623733e0</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d00</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9f9c</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a996</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623733a9</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d3e</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9fda</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a9d4</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623733e7</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d61</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9ffd</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a9f7</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006237340a</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a0199a</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a76</tstamps>
+    </comp>
+    <comp ref="C49">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01975</tstamps>
+    </comp>
+    <comp ref="C50">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a4b</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01d48</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>4.7uF</value>
+      <footprint>lsts-passives:C4x5.5</footprint>
+      <fields>
+        <field name="manf#">UWX1V4R7MCL1GB</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="CAPAPOL-lsts-passives" description=""/>
+      <property name="manf#" value="UWX1V4R7MCL1GB"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a7d</tstamps>
+    </comp>
+    <comp ref="C57">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a019b4</tstamps>
+    </comp>
+    <comp ref="C58">
+      <value>0.1uF</value>
+      <footprint>lsts-passives:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R8BB104</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="C-lsts-passives" description=""/>
+      <property name="manf#" value="CC0603KRX7R8BB104"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a9d</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>ZENER_1.8V</value>
+      <footprint>lsts-discretes:SOD-123-AC</footprint>
+      <fields>
+        <field name="manf#">BZT52C2V0-7-F</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="ZENER-lsts-discrete" description=""/>
+      <property name="manf#" value="BZT52C2V0-7-F"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9b9c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>ZENER_1.8V</value>
+      <footprint>lsts-discretes:SOD-123-AC</footprint>
+      <fields>
+        <field name="manf#">BZT52C2V0-7-F</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="ZENER-lsts-discrete" description=""/>
+      <property name="manf#" value="BZT52C2V0-7-F"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9e38</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>ZENER_1.8V</value>
+      <footprint>lsts-discretes:SOD-123-AC</footprint>
+      <fields>
+        <field name="manf#">BZT52C2V0-7-F</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="ZENER-lsts-discrete" description=""/>
+      <property name="manf#" value="BZT52C2V0-7-F"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005e8f673c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>ZENER_1.8V</value>
+      <footprint>lsts-discretes:SOD-123-AC</footprint>
+      <fields>
+        <field name="manf#">BZT52C2V0-7-F</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="ZENER-lsts-discrete" description=""/>
+      <property name="manf#" value="BZT52C2V0-7-F"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062373245</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>ZENER_1.8V</value>
+      <footprint>lsts-discretes:SOD-123-AC</footprint>
+      <fields>
+        <field name="manf#">BZT52C2V0-7-F</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="ZENER-lsts-discrete" description=""/>
+      <property name="manf#" value="BZT52C2V0-7-F"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9cea</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>ZENER_1.8V</value>
+      <footprint>lsts-discretes:SOD-123-AC</footprint>
+      <fields>
+        <field name="manf#">BZT52C2V0-7-F</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="ZENER-lsts-discrete" description=""/>
+      <property name="manf#" value="BZT52C2V0-7-F"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9f86</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>ZENER_1.8V</value>
+      <footprint>lsts-discretes:SOD-123-AC</footprint>
+      <fields>
+        <field name="manf#">BZT52C2V0-7-F</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="ZENER-lsts-discrete" description=""/>
+      <property name="manf#" value="BZT52C2V0-7-F"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a980</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>ZENER_1.8V</value>
+      <footprint>lsts-discretes:SOD-123-AC</footprint>
+      <fields>
+        <field name="manf#">BZT52C2V0-7-F</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="ZENER-lsts-discrete" description=""/>
+      <property name="manf#" value="BZT52C2V0-7-F"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062373393</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>ZENER_1.8V</value>
+      <footprint>lsts-discretes:SOD-123-AC</footprint>
+      <fields>
+        <field name="manf#">BZT52C2V0-7-F</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="ZENER-lsts-discrete" description=""/>
+      <property name="manf#" value="BZT52C2V0-7-F"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a0195f</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>ZENER_1.8V</value>
+      <footprint>lsts-discretes:SOD-123-AC</footprint>
+      <fields>
+        <field name="manf#">BZT52C2V0-7-F</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="ZENER-lsts-discrete" description=""/>
+      <property name="manf#" value="BZT52C2V0-7-F"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a35</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>FH12-20S-0.5SH_55</value>
+      <footprint>lsts-conn:FH12-20S-0.5SH_55_</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/FH12-20S-0.5SH(55).pdf</datasheet>
+      <fields>
+        <field name="Description">FFC,0.5mm Pitch,Bottom Contact,20way Hirose FH12 Series 0.5mm Pitch 20 Way Right Angle SMT Female FPC Connector, ZIF Bottom Contact</field>
+        <field name="Manufacturer_Name">Hirose</field>
+        <field name="Manufacturer_Part_Number">FH12-20S-0.5SH(55)</field>
+        <field name="Mouser Part Number">798-FH12-20S-0.5SH55</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12-20S-0.5SH55?qs=Ux3WWAnHpjBAoMH%252Bjl1N9Q%3D%3D</field>
+      </fields>
+      <libsource lib="" part="FH12-20S-0.5SH_55_1" description="FFC,0.5mm Pitch,Bottom Contact,20way Hirose FH12 Series 0.5mm Pitch 20 Way Right Angle SMT Female FPC Connector, ZIF Bottom Contact"/>
+      <property name="Description" value="FFC,0.5mm Pitch,Bottom Contact,20way Hirose FH12 Series 0.5mm Pitch 20 Way Right Angle SMT Female FPC Connector, ZIF Bottom Contact"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="798-FH12-20S-0.5SH55"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12-20S-0.5SH55?qs=Ux3WWAnHpjBAoMH%252Bjl1N9Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Hirose"/>
+      <property name="Manufacturer_Part_Number" value="FH12-20S-0.5SH(55)"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <property name="ki_description" value="FFC,0.5mm Pitch,Bottom Contact,20way Hirose FH12 Series 0.5mm Pitch 20 Way Right Angle SMT Female FPC Connector, ZIF Bottom Contact"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>89fffcb6-e2c1-4acd-bc8c-1ca6316e09f1</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9c47</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9ee3</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005e9a7128</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623732f0</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE10470RL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE10470RL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9b95</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE10470RL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE10470RL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9e31</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE10470RL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE10470RL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005e8f6736</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE10470RL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE10470RL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006237323e</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9be2</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9e7e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005e940f73</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006237328b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9bda</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9e76</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005e954287</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062373283</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9baa</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9e46</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005e96d868</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062373253</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F120R</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F120R"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9c3e</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F120R</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F120R"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9eda</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>100R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F120R</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F120R"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623732e7</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>4k7</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062ac083a</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>4k7</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a5abd6</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>4k7</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000629f5f19</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>4k7</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006178bfbc</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9bf7</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9e93</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005ea0fbb3</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623732a0</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>100R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F120R</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F120R"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef422f8</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9c25</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9ec1</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005eaa960a</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623732ce</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9c0b</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9ea7</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005eaa95f2</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623732b4</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000635ba1ac</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>18k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000635ba1b2</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000063455f6b</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>18k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000063455f71</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000063885d31</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>18k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000063885d37</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006371d933</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>18k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006371d939</tstamps>
+    </comp>
+    <comp ref="R55">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d95</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623fa031</tstamps>
+    </comp>
+    <comp ref="R57">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234aa2b</tstamps>
+    </comp>
+    <comp ref="R58">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006237343e</tstamps>
+    </comp>
+    <comp ref="R59">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE10470RL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE10470RL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9ce3</tstamps>
+    </comp>
+    <comp ref="R60">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE10470RL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE10470RL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9f7f</tstamps>
+    </comp>
+    <comp ref="R61">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE10470RL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE10470RL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a979</tstamps>
+    </comp>
+    <comp ref="R62">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE10470RL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE10470RL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006237338c</tstamps>
+    </comp>
+    <comp ref="R63">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d30</tstamps>
+    </comp>
+    <comp ref="R64">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9fcc</tstamps>
+    </comp>
+    <comp ref="R65">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a9c6</tstamps>
+    </comp>
+    <comp ref="R66">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623733d9</tstamps>
+    </comp>
+    <comp ref="R67">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d28</tstamps>
+    </comp>
+    <comp ref="R68">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9fc4</tstamps>
+    </comp>
+    <comp ref="R69">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a9be</tstamps>
+    </comp>
+    <comp ref="R70">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623733d1</tstamps>
+    </comp>
+    <comp ref="R71">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9cf8</tstamps>
+    </comp>
+    <comp ref="R72">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9f94</tstamps>
+    </comp>
+    <comp ref="R73">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a98e</tstamps>
+    </comp>
+    <comp ref="R74">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623733a1</tstamps>
+    </comp>
+    <comp ref="R75">
+      <value>100R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F120R</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F120R"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d8c</tstamps>
+    </comp>
+    <comp ref="R76">
+      <value>100R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F120R</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F120R"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623fa028</tstamps>
+    </comp>
+    <comp ref="R77">
+      <value>100R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F120R</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F120R"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234aa22</tstamps>
+    </comp>
+    <comp ref="R78">
+      <value>100R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F120R</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F120R"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062373435</tstamps>
+    </comp>
+    <comp ref="R79">
+      <value>4k7</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062b2748e</tstamps>
+    </comp>
+    <comp ref="R80">
+      <value>4k7</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062b8ec9f</tstamps>
+    </comp>
+    <comp ref="R81">
+      <value>4k7</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062c5ffbc</tstamps>
+    </comp>
+    <comp ref="R82">
+      <value>4k7</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062bf7005</tstamps>
+    </comp>
+    <comp ref="R83">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d45</tstamps>
+    </comp>
+    <comp ref="R84">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9fe1</tstamps>
+    </comp>
+    <comp ref="R85">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a9db</tstamps>
+    </comp>
+    <comp ref="R86">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623733ee</tstamps>
+    </comp>
+    <comp ref="R87">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d73</tstamps>
+    </comp>
+    <comp ref="R88">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623fa00f</tstamps>
+    </comp>
+    <comp ref="R89">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234aa09</tstamps>
+    </comp>
+    <comp ref="R90">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006237341c</tstamps>
+    </comp>
+    <comp ref="R91">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9d59</tstamps>
+    </comp>
+    <comp ref="R92">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9ff5</tstamps>
+    </comp>
+    <comp ref="R93">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234a9ef</tstamps>
+    </comp>
+    <comp ref="R94">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062373402</tstamps>
+    </comp>
+    <comp ref="R95">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000631e6d77</tstamps>
+    </comp>
+    <comp ref="R96">
+      <value>18k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000631e6d7d</tstamps>
+    </comp>
+    <comp ref="R97">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006334aec5</tstamps>
+    </comp>
+    <comp ref="R98">
+      <value>18k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006334aecb</tstamps>
+    </comp>
+    <comp ref="R99">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062f78a8b</tstamps>
+    </comp>
+    <comp ref="R100">
+      <value>18k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006308254c</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006318c0d8</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>18k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006318c0de</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a019e6</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01ac8</tstamps>
+    </comp>
+    <comp ref="R109">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE10470RL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE10470RL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01958</tstamps>
+    </comp>
+    <comp ref="R110">
+      <value>470R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE10470RL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE10470RL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a2e</tstamps>
+    </comp>
+    <comp ref="R113">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01993</tstamps>
+    </comp>
+    <comp ref="R114">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a6f</tstamps>
+    </comp>
+    <comp ref="R118">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a0198b</tstamps>
+    </comp>
+    <comp ref="R119">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a67</tstamps>
+    </comp>
+    <comp ref="R122">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a0196d</tstamps>
+    </comp>
+    <comp ref="R123">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a43</tstamps>
+    </comp>
+    <comp ref="R126">
+      <value>100R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F120R</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F120R"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a019dd</tstamps>
+    </comp>
+    <comp ref="R127">
+      <value>100R</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F120R</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F120R"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01e0f</tstamps>
+    </comp>
+    <comp ref="R130">
+      <value>4k7</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01d41</tstamps>
+    </comp>
+    <comp ref="R131">
+      <value>4k7</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01d38</tstamps>
+    </comp>
+    <comp ref="R134">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a019a1</tstamps>
+    </comp>
+    <comp ref="R135">
+      <value>68k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603FRE0768KL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="RT0603FRE0768KL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a84</tstamps>
+    </comp>
+    <comp ref="R138">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a019c6</tstamps>
+    </comp>
+    <comp ref="R139">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CR0603-FX-1002ELF</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CR0603-FX-1002ELF"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01aaf</tstamps>
+    </comp>
+    <comp ref="R142">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a019ac</tstamps>
+    </comp>
+    <comp ref="R143">
+      <value>470k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <fields>
+        <field name="manf#">CRG0603F470K</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="R-lsts-passives" description=""/>
+      <property name="manf#" value="CRG0603F470K"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01a95</tstamps>
+    </comp>
+    <comp ref="R148">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01e28</tstamps>
+    </comp>
+    <comp ref="R149">
+      <value>18k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01e2e</tstamps>
+    </comp>
+    <comp ref="R150">
+      <value>10k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01e3c</tstamps>
+    </comp>
+    <comp ref="R151">
+      <value>18k</value>
+      <footprint>lsts-passives:R_0603</footprint>
+      <libsource lib="lsts-passives" part="R" description=""/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01e42</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>OPAMP_QUAD</value>
+      <footprint>lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">MCP6004-I/SL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic" description=""/>
+      <property name="manf#" value="MCP6004-I/SL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062373304 00000000-0000-0000-0000-00006237330b 00000000-0000-0000-0000-000062373346 00000000-0000-0000-0000-0000623732e0</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>OPAMP_QUAD</value>
+      <footprint>lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">MCP6004-I/SL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic" description=""/>
+      <property name="manf#" value="MCP6004-I/SL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00005eb684ba 00000000-0000-0000-0000-00005e91e152 00000000-0000-0000-0000-00006188356f 00000000-0000-0000-0000-00005e91badc</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>OPAMP_QUAD</value>
+      <footprint>lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">MCP6004-I/SL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic" description=""/>
+      <property name="manf#" value="MCP6004-I/SL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a019fa 00000000-0000-0000-0000-000062a019f3 00000000-0000-0000-0000-000062a01a0b 00000000-0000-0000-0000-000062a019d6</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>OPAMP_QUAD</value>
+      <footprint>lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">MCP6004-I/SL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic" description=""/>
+      <property name="manf#" value="MCP6004-I/SL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9c62 00000000-0000-0000-0000-0000623f9c9d 00000000-0000-0000-0000-0000623f9c5b 00000000-0000-0000-0000-0000623f9c37</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>OPAMP_QUAD</value>
+      <footprint>lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">MCP6004-I/SL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic" description=""/>
+      <property name="manf#" value="MCP6004-I/SL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062373459 00000000-0000-0000-0000-000062373494 00000000-0000-0000-0000-000062373452 00000000-0000-0000-0000-00006237342e</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>OPAMP_QUAD</value>
+      <footprint>lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">MCP6004-I/SL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic" description=""/>
+      <property name="manf#" value="MCP6004-I/SL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-00006234aa81 00000000-0000-0000-0000-00006234aa46 00000000-0000-0000-0000-00006234aa3f 00000000-0000-0000-0000-00006234aa1b</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>OPAMP_QUAD</value>
+      <footprint>lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">MCP6004-I/SL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic" description=""/>
+      <property name="manf#" value="MCP6004-I/SL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9deb 00000000-0000-0000-0000-0000623f9da9 00000000-0000-0000-0000-0000623f9db0 00000000-0000-0000-0000-0000623f9d85</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>OPAMP_QUAD</value>
+      <footprint>lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">MCP6004-I/SL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic" description=""/>
+      <property name="manf#" value="MCP6004-I/SL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623fa087 00000000-0000-0000-0000-0000623fa04c 00000000-0000-0000-0000-0000623fa045 00000000-0000-0000-0000-0000623fa021</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>OPAMP_QUAD</value>
+      <footprint>lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">MCP6004-I/SL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic" description=""/>
+      <property name="manf#" value="MCP6004-I/SL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-0000623f9ef7 00000000-0000-0000-0000-0000623f9efe 00000000-0000-0000-0000-0000623f9f39 00000000-0000-0000-0000-0000623f9ed3</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>OPAMP_QUAD</value>
+      <footprint>lsts-ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">MCP6004-I/SL</field>
+      </fields>
+      <libsource lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic" description=""/>
+      <property name="manf#" value="MCP6004-I/SL"/>
+      <property name="Sheetname" value="HeartBeat"/>
+      <property name="Sheetfile" value="HeartBeat.kicad_sch"/>
+      <sheetpath names="/HeartBeat/" tstamps="/00000000-0000-0000-0000-000059de1e31/"/>
+      <tstamps>00000000-0000-0000-0000-000062a01af9 00000000-0000-0000-0000-000062a01adb 00000000-0000-0000-0000-000062a01ae2 00000000-0000-0000-0000-000062a01abf</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="FH12-20S-0.5SH_55_1">
+      <description>FFC,0.5mm Pitch,Bottom Contact,20way Hirose FH12 Series 0.5mm Pitch 20 Way Right Angle SMT Female FPC Connector, ZIF Bottom Contact</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/FH12-20S-0.5SH(55).pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FH12-20S-0.5SH_55_1</field>
+        <field name="Footprint">lsts-conn:FH12-20S-0.5SH_55_</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/FH12-20S-0.5SH(55).pdf</field>
+        <field name="Description">FFC,0.5mm Pitch,Bottom Contact,20way Hirose FH12 Series 0.5mm Pitch 20 Way Right Angle SMT Female FPC Connector, ZIF Bottom Contact</field>
+        <field name="Mouser Part Number">798-FH12-20S-0.5SH55</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12-20S-0.5SH55?qs=Ux3WWAnHpjBAoMH%252Bjl1N9Q%3D%3D</field>
+        <field name="Manufacturer_Name">Hirose</field>
+        <field name="Manufacturer_Part_Number">FH12-20S-0.5SH(55)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESPulse-rescue" part="BATTERY_Keystone_3000-lsts-conn">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BATTERY_Keystone_3000-lsts-conn</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESPulse-rescue" part="C-lsts-passives">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-lsts-passives</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESPulse-rescue" part="CAPAPOL-lsts-passives">
+      <footprints>
+        <fp>CR*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPAPOL-lsts-passives</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESPulse-rescue" part="OPAMP_QUAD-lsts-ic">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPAMP_QUAD-lsts-ic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESPulse-rescue" part="R-lsts-passives">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-lsts-passives</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESPulse-rescue" part="REG_Recom-lsts-regul">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">REG_Recom-lsts-regul</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="Vout" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESPulse-rescue" part="RV-3032-C7-lsts-devices">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RV-3032-C7-lsts-devices</field>
+        <field name="Footprint">lsts-devices:RV-3028-C7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBACKUP" type="power_in"/>
+        <pin num="2" name="SDA" type="bidirectional"/>
+        <pin num="3" name="~{INT}" type="open_collector"/>
+        <pin num="4" name="EVI" type="input"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="CLKOUT" type="unspecified"/>
+        <pin num="8" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESPulse-rescue" part="SW_PUSH-lsts-devices">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH-lsts-devices</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESPulse-rescue" part="ZENER-lsts-discrete">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER-lsts-discrete</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lsts-conn" part="503398-1892">
+      <description>MicroSD SMT Push-Push 1.28mm height MicroSD SMT Push-Push 1.28mm height</description>
+      <docs>http://www.molex.com/webdocs/datasheets/pdf/en-us//5033981892_MEMORY_CARD_SOCKET.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">503398-1892</field>
+        <field name="Footprint">503398-1892</field>
+        <field name="Datasheet">http://www.molex.com/webdocs/datasheets/pdf/en-us//5033981892_MEMORY_CARD_SOCKET.pdf</field>
+        <field name="Description">MicroSD SMT Push-Push 1.28mm height MicroSD SMT Push-Push 1.28mm height</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">503398-1892</field>
+        <field name="Mouser Part Number">538-503398-1892</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/503398-1892?qs=b0v8CoHHvSMxV%252BW12iKaSg%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="passive"/>
+        <pin num="2" name="CD/DAT3" type="passive"/>
+        <pin num="3" name="CMD" type="passive"/>
+        <pin num="4" name="VDD" type="passive"/>
+        <pin num="5" name="CLK" type="passive"/>
+        <pin num="6" name="VSS" type="passive"/>
+        <pin num="7" name="DAT0" type="passive"/>
+        <pin num="8" name="DAT1" type="passive"/>
+        <pin num="9" name="DETECT_LEVER" type="passive"/>
+        <pin num="10" name="DETECT_SWITCH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lsts-conn" part="CONN_1x1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lsts-conn" part="CONN_1x2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lsts-conn" part="CONN_4x1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_4x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lsts-conn" part="CONN_6x1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_6x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lsts-conn" part="FH12-34S-0.5SH_55_">
+      <description>Hirose FH12 Series 0.5mm Pitch 34 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts</description>
+      <docs>https://www.hirose.com/product/download/?distributor=digikey&amp;type=2d&amp;lang=en&amp;num=FH12-34S-0.5SH(55)</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FH12-34S-0.5SH_55_</field>
+        <field name="Footprint">FH1234S05SH55</field>
+        <field name="Datasheet">https://www.hirose.com/product/download/?distributor=digikey&amp;type=2d&amp;lang=en&amp;num=FH12-34S-0.5SH(55)</field>
+        <field name="Description">Hirose FH12 Series 0.5mm Pitch 34 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts</field>
+        <field name="Height">2.2</field>
+        <field name="Mouser Part Number">798-FH12-34S-0.5SH55</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12-34S-05SH55?qs=Ux3WWAnHpjDOuK5e9SNefQ%3D%3D</field>
+        <field name="Manufacturer_Name">Hirose</field>
+        <field name="Manufacturer_Part_Number">FH12-34S-0.5SH(55)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lsts-passives" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lsts-passives" part="R">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lsts-regul" part="GEN_REGULATOR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GEN_REGULATOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="ESP32-S3-WROOM-1">
+      <description>RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth 5, BLE, 32-bit, 3.0-3.6V, onboard antenna, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?WROOM?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S3-WROOM-1</field>
+        <field name="Footprint">RF_Module:ESP32-S3-WROOM-1</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="IO4" type="bidirectional"/>
+        <pin num="5" name="IO5" type="bidirectional"/>
+        <pin num="6" name="IO6" type="bidirectional"/>
+        <pin num="7" name="IO7" type="bidirectional"/>
+        <pin num="8" name="IO15" type="bidirectional"/>
+        <pin num="9" name="IO16" type="bidirectional"/>
+        <pin num="10" name="IO17" type="bidirectional"/>
+        <pin num="11" name="IO18" type="bidirectional"/>
+        <pin num="12" name="IO8" type="bidirectional"/>
+        <pin num="13" name="IO19" type="bidirectional"/>
+        <pin num="14" name="IO20" type="bidirectional"/>
+        <pin num="15" name="IO3" type="bidirectional"/>
+        <pin num="16" name="IO46" type="bidirectional"/>
+        <pin num="17" name="IO9" type="bidirectional"/>
+        <pin num="18" name="IO10" type="bidirectional"/>
+        <pin num="19" name="IO11" type="bidirectional"/>
+        <pin num="20" name="IO12" type="bidirectional"/>
+        <pin num="21" name="IO13" type="bidirectional"/>
+        <pin num="22" name="IO14" type="bidirectional"/>
+        <pin num="23" name="IO21" type="bidirectional"/>
+        <pin num="24" name="IO47" type="bidirectional"/>
+        <pin num="25" name="IO48" type="bidirectional"/>
+        <pin num="26" name="IO45" type="bidirectional"/>
+        <pin num="27" name="IO0" type="bidirectional"/>
+        <pin num="28" name="IO35" type="bidirectional"/>
+        <pin num="29" name="IO36" type="bidirectional"/>
+        <pin num="30" name="IO37" type="bidirectional"/>
+        <pin num="31" name="IO38" type="bidirectional"/>
+        <pin num="32" name="IO39" type="bidirectional"/>
+        <pin num="33" name="IO40" type="bidirectional"/>
+        <pin num="34" name="IO41" type="bidirectional"/>
+        <pin num="35" name="IO42" type="bidirectional"/>
+        <pin num="36" name="RXD0/IO44" type="bidirectional"/>
+        <pin num="37" name="TXD0/IO43" type="bidirectional"/>
+        <pin num="38" name="IO2" type="bidirectional"/>
+        <pin num="39" name="IO1" type="bidirectional"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ESPulse-rescue">
+      <uri>E:\OneDrive - Universidade do Porto\Electronics\5_Kicad_SVN\ESPulse\Main board\trunk/ESPulse-rescue.lib</uri>
+    </library>
+    <library logical="lsts-conn">
+      <uri>E:/OneDrive - Universidade do Porto/Electronics/6_Kicad_components/eda/kicad-library/lsts-conn.kicad_sym</uri>
+    </library>
+    <library logical="lsts-passives">
+      <uri>E:/OneDrive - Universidade do Porto/Electronics/6_Kicad_components/eda/kicad-library/lsts-passives.kicad_sym</uri>
+    </library>
+    <library logical="lsts-regul">
+      <uri>E:/OneDrive - Universidade do Porto/Electronics/6_Kicad_components/eda/kicad-library/lsts-regul.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="3.3vReg1" pin="3" pinfunction="Vout" pintype="input"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C62" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="VDD" pintype="passive"/>
+      <node ref="P2" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="R128" pin="1" pintype="passive"/>
+      <node ref="R129" pin="1" pintype="passive"/>
+      <node ref="R132" pin="1" pintype="passive"/>
+      <node ref="R133" pin="1" pintype="passive"/>
+      <node ref="R144" pin="1" pintype="passive"/>
+      <node ref="R145" pin="1" pintype="passive"/>
+      <node ref="R146" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="5vReg1" pin="3" pinfunction="Vout" pintype="power_out"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R105" pin="1" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
+      <node ref="R110" pin="1" pintype="passive"/>
+      <node ref="R126" pin="1" pintype="passive"/>
+      <node ref="R127" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+      <node ref="R58" pin="1" pintype="passive"/>
+      <node ref="R59" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R60" pin="1" pintype="passive"/>
+      <node ref="R61" pin="1" pintype="passive"/>
+      <node ref="R62" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R75" pin="1" pintype="passive"/>
+      <node ref="R76" pin="1" pintype="passive"/>
+      <node ref="R77" pin="1" pintype="passive"/>
+      <node ref="R78" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U11" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U12" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U13" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U14" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U15" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U17" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="/1_HB_ADC">
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/2_HB_ADC">
+      <node ref="R100" pin="1" pintype="passive"/>
+      <node ref="R99" pin="2" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="IO6" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/3.3V_LED_Power_Pause_Switch">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U7" pin="18" pinfunction="IO10" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/3_HB_ADC">
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/4_HB_ADC">
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="U7" pin="22" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/5_HB_ADC">
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="U7" pin="39" pinfunction="IO1" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/6_HB_ADC">
+      <node ref="R95" pin="2" pintype="passive"/>
+      <node ref="R96" pin="1" pintype="passive"/>
+      <node ref="U7" pin="38" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/7_HB_ADC">
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/8_HB_ADC">
+      <node ref="R97" pin="2" pintype="passive"/>
+      <node ref="R98" pin="1" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="IO7" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/9_HB_ADC">
+      <node ref="R148" pin="2" pintype="passive"/>
+      <node ref="R149" pin="1" pintype="passive"/>
+      <node ref="U7" pin="15" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/10_HB_ADC">
+      <node ref="R150" pin="2" pintype="passive"/>
+      <node ref="R151" pin="1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Backward_Pin">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="35" pinfunction="IO42" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/DC_TFT">
+      <node ref="J1" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="R155" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/Forward_Pin">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/HeartBeat/HB1-P">
+      <node ref="J2" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/HeartBeat/HB1-S">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/HeartBeat/HB2-P">
+      <node ref="J2" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="R77" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/HeartBeat/HB2-S">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="R57" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/HeartBeat/HB3-P">
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/HeartBeat/HB3-S">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="/HeartBeat/HB4-P">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R78" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/HeartBeat/HB4-S">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R58" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/HeartBeat/HB5-P">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/HeartBeat/HB5-S">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="/HeartBeat/HB6-P">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R75" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="/HeartBeat/HB6-S">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R55" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="/HeartBeat/HB7-P">
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="/HeartBeat/HB7-S">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/HeartBeat/HB8-P">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R76" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="/HeartBeat/HB8-S">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="R56" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/HeartBeat/HB9-P">
+      <node ref="J2" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="R126" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="/HeartBeat/HB9-S">
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="/HeartBeat/HB10-P">
+      <node ref="J2" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="R127" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="/HeartBeat/HB10-S">
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="/IO0">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="P4" pin="6" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U7" pin="27" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/Input_12V">
+      <node ref="P2" pin="3" pintype="passive"/>
+      <node ref="P3" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="/Output_12V">
+      <node ref="3.3vReg1" pin="1" pinfunction="Vin" pintype="input"/>
+      <node ref="5vReg1" pin="1" pinfunction="Vin" pintype="power_in"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="P2" pin="4" pintype="passive"/>
+    </net>
+    <net code="40" name="/Pause_Switch_Int">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/Pot_1">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="J1" pin="33" pinfunction="33" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="/Pot_2">
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="J1" pin="31" pinfunction="31" pintype="passive"/>
+      <node ref="R81" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="/Pot_3">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="J1" pin="29" pinfunction="29" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="/Pot_4">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="J1" pin="27" pinfunction="27" pintype="passive"/>
+      <node ref="R82" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="/Pot_5">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="J1" pin="25" pinfunction="25" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="/Pot_6">
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="J1" pin="24" pinfunction="24" pintype="passive"/>
+      <node ref="R80" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="/Pot_7">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="J1" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="/Pot_8">
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="J1" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="R79" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="/Pot_9">
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="J1" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="R130" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="/Pot_10">
+      <node ref="C54" pin="1" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="R131" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="/RST">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="P4" pin="5" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="52" name="/RTC Interrupt 1Hz">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="~{INT}" pintype="open_collector"/>
+      <node ref="U7" pin="23" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/RxD">
+      <node ref="P4" pin="2" pintype="passive"/>
+      <node ref="U7" pin="36" pinfunction="RXD0/IO44" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/SCL">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="SCL" pintype="input"/>
+      <node ref="U7" pin="17" pinfunction="IO9" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/SDA">
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U7" pin="12" pinfunction="IO8" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/SD_CLC">
+      <node ref="J3" pin="5" pinfunction="CLK" pintype="passive"/>
+      <node ref="R132" pin="2" pintype="passive"/>
+      <node ref="U7" pin="30" pinfunction="IO37" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/SD_CMD">
+      <node ref="J3" pin="3" pinfunction="CMD" pintype="passive"/>
+      <node ref="R133" pin="2" pintype="passive"/>
+      <node ref="U7" pin="32" pinfunction="IO39" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/SD_D0">
+      <node ref="J3" pin="7" pinfunction="DAT0" pintype="passive"/>
+      <node ref="R144" pin="2" pintype="passive"/>
+      <node ref="U7" pin="29" pinfunction="IO36" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/SD_D1">
+      <node ref="J3" pin="8" pinfunction="DAT1" pintype="passive"/>
+      <node ref="R145" pin="2" pintype="passive"/>
+      <node ref="U7" pin="28" pinfunction="IO35" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="/SD_D2">
+      <node ref="J3" pin="1" pinfunction="DAT2" pintype="passive"/>
+      <node ref="R128" pin="2" pintype="passive"/>
+      <node ref="U7" pin="34" pinfunction="IO41" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="/SD_D3">
+      <node ref="J3" pin="2" pinfunction="CD/DAT3" pintype="passive"/>
+      <node ref="R129" pin="2" pintype="passive"/>
+      <node ref="U7" pin="33" pinfunction="IO40" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="/SD_Detect">
+      <node ref="J3" pin="10" pinfunction="DETECT_SWITCH" pintype="passive"/>
+      <node ref="R146" pin="2" pintype="passive"/>
+      <node ref="U7" pin="31" pinfunction="IO38" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="/SPI_CS_TFT">
+      <node ref="J1" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="R104" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="/SPI_MOSI">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="/SPI_SCK">
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="R108" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="/TxD">
+      <node ref="P4" pin="3" pintype="passive"/>
+      <node ref="U7" pin="37" pinfunction="TXD0/IO43" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="GND">
+      <node ref="3.3vReg1" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="5vReg1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="BT3" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="C62" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D11" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J1" pin="MP1" pinfunction="MP1" pintype="passive"/>
+      <node ref="J1" pin="MP2" pinfunction="MP2" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="VSS" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="DETECT_LEVER" pintype="passive"/>
+      <node ref="P2" pin="1" pintype="passive"/>
+      <node ref="P20" pin="1" pintype="passive"/>
+      <node ref="P21" pin="1" pintype="passive"/>
+      <node ref="P24" pin="1" pintype="passive"/>
+      <node ref="P25" pin="1" pintype="passive"/>
+      <node ref="P3" pin="1" pintype="passive"/>
+      <node ref="P4" pin="1" pintype="passive"/>
+      <node ref="R100" pin="2" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="R149" pin="2" pintype="passive"/>
+      <node ref="R151" pin="2" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="R96" pin="2" pintype="passive"/>
+      <node ref="R98" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="EVI" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U10" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U11" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U12" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U13" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U14" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U15" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U17" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U6" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="40" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="41" pinfunction="EPAD" pintype="power_in"/>
+      <node ref="U9" pin="11" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="68" name="Net-(BT3-Pad+)">
+      <node ref="BT3" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="R116" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U10" pin="1" pintype="output"/>
+    </net>
+    <net code="70" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U15" pin="1" pintype="output"/>
+    </net>
+    <net code="71" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pintype="output"/>
+    </net>
+    <net code="72" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="output"/>
+    </net>
+    <net code="73" name="Net-(C31-Pad1)">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="R71" pin="1" pintype="passive"/>
+      <node ref="R80" pin="1" pintype="passive"/>
+      <node ref="U13" pin="1" pintype="output"/>
+    </net>
+    <net code="74" name="Net-(C32-Pad1)">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="R72" pin="1" pintype="passive"/>
+      <node ref="R79" pin="1" pintype="passive"/>
+      <node ref="U14" pin="1" pintype="output"/>
+    </net>
+    <net code="75" name="Net-(C33-Pad1)">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="R73" pin="1" pintype="passive"/>
+      <node ref="R81" pin="1" pintype="passive"/>
+      <node ref="U12" pin="1" pintype="output"/>
+    </net>
+    <net code="76" name="Net-(C34-Pad1)">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="R74" pin="1" pintype="passive"/>
+      <node ref="R82" pin="1" pintype="passive"/>
+      <node ref="U11" pin="1" pintype="output"/>
+    </net>
+    <net code="77" name="Net-(C49-Pad1)">
+      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="R122" pin="1" pintype="passive"/>
+      <node ref="R130" pin="1" pintype="passive"/>
+      <node ref="U9" pin="1" pintype="output"/>
+    </net>
+    <net code="78" name="Net-(C50-Pad1)">
+      <node ref="C50" pin="1" pintype="passive"/>
+      <node ref="R123" pin="1" pintype="passive"/>
+      <node ref="R131" pin="1" pintype="passive"/>
+      <node ref="U17" pin="1" pintype="output"/>
+    </net>
+    <net code="79" name="Net-(U1-VBACKUP)">
+      <node ref="R116" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VBACKUP" pintype="power_in"/>
+    </net>
+    <net code="80" name="Net-(U5A-+)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="81" name="Net-(U5A--)">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="82" name="Net-(U5B-+)">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="83" name="Net-(U5B--)">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="84" name="Net-(U5C-+)">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U5" pin="7" pintype="output"/>
+    </net>
+    <net code="85" name="Net-(U5C--)">
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="U5" pin="8" pintype="output"/>
+      <node ref="U5" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(U5D--)">
+      <node ref="U5" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U5" pin="14" pintype="output"/>
+    </net>
+    <net code="87" name="Net-(U6A-+)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="88" name="Net-(U6A--)">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="89" name="Net-(U6B-+)">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(U6B--)">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="91" name="Net-(U6C-+)">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U6" pin="7" pintype="output"/>
+    </net>
+    <net code="92" name="Net-(U6C--)">
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="U6" pin="8" pintype="output"/>
+      <node ref="U6" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="93" name="Net-(U6D--)">
+      <node ref="U6" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U6" pin="14" pintype="output"/>
+    </net>
+    <net code="94" name="Net-(U7-IO11)">
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="U7" pin="19" pinfunction="IO11" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="Net-(U7-IO12)">
+      <node ref="R108" pin="1" pintype="passive"/>
+      <node ref="U7" pin="20" pinfunction="IO12" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="Net-(U7-IO19)">
+      <node ref="R155" pin="1" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="Net-(U7-IO20)">
+      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="IO20" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="Net-(U9A-+)">
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="R113" pin="1" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="99" name="Net-(U9A--)">
+      <node ref="C49" pin="2" pintype="passive"/>
+      <node ref="R118" pin="1" pintype="passive"/>
+      <node ref="R122" pin="2" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="100" name="Net-(U9B-+)">
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="R134" pin="1" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="101" name="Net-(U9B--)">
+      <node ref="C57" pin="2" pintype="passive"/>
+      <node ref="R138" pin="1" pintype="passive"/>
+      <node ref="R142" pin="2" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="102" name="Net-(U9C-+)">
+      <node ref="C57" pin="1" pintype="passive"/>
+      <node ref="R142" pin="1" pintype="passive"/>
+      <node ref="U9" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U9" pin="7" pintype="output"/>
+    </net>
+    <net code="103" name="Net-(U9C--)">
+      <node ref="R148" pin="1" pintype="passive"/>
+      <node ref="U9" pin="8" pintype="output"/>
+      <node ref="U9" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="104" name="Net-(U9D--)">
+      <node ref="U9" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U9" pin="14" pintype="output"/>
+    </net>
+    <net code="105" name="Net-(U10A-+)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="106" name="Net-(U10A--)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="107" name="Net-(U10B-+)">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="108" name="Net-(U10B--)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="109" name="Net-(U10C-+)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="U10" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U10" pin="7" pintype="output"/>
+    </net>
+    <net code="110" name="Net-(U10C--)">
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="U10" pin="8" pintype="output"/>
+      <node ref="U10" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="111" name="Net-(U10D--)">
+      <node ref="U10" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U10" pin="14" pintype="output"/>
+    </net>
+    <net code="112" name="Net-(U11A-+)">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="R66" pin="1" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="113" name="Net-(U11A--)">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="R70" pin="1" pintype="passive"/>
+      <node ref="R74" pin="2" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="114" name="Net-(U11B-+)">
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="R86" pin="1" pintype="passive"/>
+      <node ref="U11" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="115" name="Net-(U11B--)">
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="R90" pin="1" pintype="passive"/>
+      <node ref="R94" pin="2" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="116" name="Net-(U11C-+)">
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="R94" pin="1" pintype="passive"/>
+      <node ref="U11" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U11" pin="7" pintype="output"/>
+    </net>
+    <net code="117" name="Net-(U11C--)">
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="U11" pin="8" pintype="output"/>
+      <node ref="U11" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="118" name="Net-(U11D--)">
+      <node ref="U11" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U11" pin="14" pintype="output"/>
+    </net>
+    <net code="119" name="Net-(U12A-+)">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="R65" pin="1" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="120" name="Net-(U12A--)">
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="R69" pin="1" pintype="passive"/>
+      <node ref="R73" pin="2" pintype="passive"/>
+      <node ref="U12" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="121" name="Net-(U12B-+)">
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="R85" pin="1" pintype="passive"/>
+      <node ref="U12" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="122" name="Net-(U12B--)">
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="R89" pin="1" pintype="passive"/>
+      <node ref="R93" pin="2" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="123" name="Net-(U12C-+)">
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="R93" pin="1" pintype="passive"/>
+      <node ref="U12" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U12" pin="7" pintype="output"/>
+    </net>
+    <net code="124" name="Net-(U12C--)">
+      <node ref="R99" pin="1" pintype="passive"/>
+      <node ref="U12" pin="8" pintype="output"/>
+      <node ref="U12" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="125" name="Net-(U12D--)">
+      <node ref="U12" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U12" pin="14" pintype="output"/>
+    </net>
+    <net code="126" name="Net-(U13A-+)">
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="R63" pin="1" pintype="passive"/>
+      <node ref="U13" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="127" name="Net-(U13A--)">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="R67" pin="1" pintype="passive"/>
+      <node ref="R71" pin="2" pintype="passive"/>
+      <node ref="U13" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="128" name="Net-(U13B-+)">
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="R83" pin="1" pintype="passive"/>
+      <node ref="U13" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="129" name="Net-(U13B--)">
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="R87" pin="1" pintype="passive"/>
+      <node ref="R91" pin="2" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="130" name="Net-(U13C-+)">
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="R91" pin="1" pintype="passive"/>
+      <node ref="U13" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U13" pin="7" pintype="output"/>
+    </net>
+    <net code="131" name="Net-(U13C--)">
+      <node ref="R95" pin="1" pintype="passive"/>
+      <node ref="U13" pin="8" pintype="output"/>
+      <node ref="U13" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="132" name="Net-(U13D--)">
+      <node ref="U13" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U13" pin="14" pintype="output"/>
+    </net>
+    <net code="133" name="Net-(U14A-+)">
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="R64" pin="1" pintype="passive"/>
+      <node ref="U14" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="134" name="Net-(U14A--)">
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="R68" pin="1" pintype="passive"/>
+      <node ref="R72" pin="2" pintype="passive"/>
+      <node ref="U14" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="135" name="Net-(U14B-+)">
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="R84" pin="1" pintype="passive"/>
+      <node ref="U14" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="136" name="Net-(U14B--)">
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="R88" pin="1" pintype="passive"/>
+      <node ref="R92" pin="2" pintype="passive"/>
+      <node ref="U14" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="137" name="Net-(U14C-+)">
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="R92" pin="1" pintype="passive"/>
+      <node ref="U14" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U14" pin="7" pintype="output"/>
+    </net>
+    <net code="138" name="Net-(U14C--)">
+      <node ref="R97" pin="1" pintype="passive"/>
+      <node ref="U14" pin="8" pintype="output"/>
+      <node ref="U14" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="139" name="Net-(U14D--)">
+      <node ref="U14" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U14" pin="14" pintype="output"/>
+    </net>
+    <net code="140" name="Net-(U15A-+)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U15" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="141" name="Net-(U15A--)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U15" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="142" name="Net-(U15B-+)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U15" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="143" name="Net-(U15B--)">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="U15" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="144" name="Net-(U15C-+)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="U15" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U15" pin="7" pintype="output"/>
+    </net>
+    <net code="145" name="Net-(U15C--)">
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="U15" pin="8" pintype="output"/>
+      <node ref="U15" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="146" name="Net-(U15D--)">
+      <node ref="U15" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U15" pin="14" pintype="output"/>
+    </net>
+    <net code="147" name="Net-(U17A-+)">
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="R114" pin="1" pintype="passive"/>
+      <node ref="U17" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="148" name="Net-(U17A--)">
+      <node ref="C50" pin="2" pintype="passive"/>
+      <node ref="R119" pin="1" pintype="passive"/>
+      <node ref="R123" pin="2" pintype="passive"/>
+      <node ref="U17" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="149" name="Net-(U17B-+)">
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="R135" pin="1" pintype="passive"/>
+      <node ref="U17" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="150" name="Net-(U17B--)">
+      <node ref="C58" pin="2" pintype="passive"/>
+      <node ref="R139" pin="1" pintype="passive"/>
+      <node ref="R143" pin="2" pintype="passive"/>
+      <node ref="U17" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="151" name="Net-(U17C-+)">
+      <node ref="C58" pin="1" pintype="passive"/>
+      <node ref="R143" pin="1" pintype="passive"/>
+      <node ref="U17" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U17" pin="7" pintype="output"/>
+    </net>
+    <net code="152" name="Net-(U17C--)">
+      <node ref="R150" pin="1" pintype="passive"/>
+      <node ref="U17" pin="8" pintype="output"/>
+      <node ref="U17" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="153" name="Net-(U17D--)">
+      <node ref="U17" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U17" pin="14" pintype="output"/>
+    </net>
+    <net code="154" name="VRef_1">
+      <node ref="D3" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="34" pinfunction="34" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="155" name="VRef_2">
+      <node ref="D7" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="32" pinfunction="32" pintype="passive"/>
+      <node ref="R61" pin="2" pintype="passive"/>
+      <node ref="R65" pin="2" pintype="passive"/>
+      <node ref="R69" pin="2" pintype="passive"/>
+      <node ref="R85" pin="2" pintype="passive"/>
+      <node ref="R89" pin="2" pintype="passive"/>
+      <node ref="U12" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="156" name="VRef_3">
+      <node ref="D4" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="30" pinfunction="30" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="157" name="VRef_4">
+      <node ref="D8" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="28" pinfunction="28" pintype="passive"/>
+      <node ref="R62" pin="2" pintype="passive"/>
+      <node ref="R66" pin="2" pintype="passive"/>
+      <node ref="R70" pin="2" pintype="passive"/>
+      <node ref="R86" pin="2" pintype="passive"/>
+      <node ref="R90" pin="2" pintype="passive"/>
+      <node ref="U11" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="158" name="VRef_5">
+      <node ref="D1" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="26" pinfunction="26" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U10" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="159" name="VRef_6">
+      <node ref="D5" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="23" pintype="passive"/>
+      <node ref="R59" pin="2" pintype="passive"/>
+      <node ref="R63" pin="2" pintype="passive"/>
+      <node ref="R67" pin="2" pintype="passive"/>
+      <node ref="R83" pin="2" pintype="passive"/>
+      <node ref="R87" pin="2" pintype="passive"/>
+      <node ref="U13" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="160" name="VRef_7">
+      <node ref="D2" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U15" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="161" name="VRef_8">
+      <node ref="D6" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="R60" pin="2" pintype="passive"/>
+      <node ref="R64" pin="2" pintype="passive"/>
+      <node ref="R68" pin="2" pintype="passive"/>
+      <node ref="R84" pin="2" pintype="passive"/>
+      <node ref="R88" pin="2" pintype="passive"/>
+      <node ref="U14" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="162" name="VRef_9">
+      <node ref="D11" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="R109" pin="2" pintype="passive"/>
+      <node ref="R113" pin="2" pintype="passive"/>
+      <node ref="R118" pin="2" pintype="passive"/>
+      <node ref="R134" pin="2" pintype="passive"/>
+      <node ref="R138" pin="2" pintype="passive"/>
+      <node ref="U9" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="163" name="VRef_10">
+      <node ref="D12" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R110" pin="2" pintype="passive"/>
+      <node ref="R114" pin="2" pintype="passive"/>
+      <node ref="R119" pin="2" pintype="passive"/>
+      <node ref="R135" pin="2" pintype="passive"/>
+      <node ref="R139" pin="2" pintype="passive"/>
+      <node ref="U17" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="164" name="unconnected-(P4-Pad4)">
+      <node ref="P4" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(U1-CLKOUT-Pad7)">
+      <node ref="U1" pin="7" pinfunction="CLKOUT" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(U7-IO13-Pad21)">
+      <node ref="U7" pin="21" pinfunction="IO13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(U7-IO45-Pad26)">
+      <node ref="U7" pin="26" pinfunction="IO45" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="168" name="unconnected-(U7-IO46-Pad16)">
+      <node ref="U7" pin="16" pinfunction="IO46" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="169" name="unconnected-(U7-IO47-Pad24)">
+      <node ref="U7" pin="24" pinfunction="IO47" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="170" name="unconnected-(U7-IO48-Pad25)">
+      <node ref="U7" pin="25" pinfunction="IO48" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
