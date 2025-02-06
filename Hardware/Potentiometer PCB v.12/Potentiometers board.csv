@@ -1,0 +1,16 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1,C2,C3";"C_0603";3;"100nF";;;
+2;"R4,R5,R3";"R_0603";3;"100k";;;
+3;"SW1";"Pulse_button_2";1;"Power";;;
+4;"P4";"43045-04YY_121314";1;"CONN_4x1";;;
+5;"SW3";"Pulse_button_2";1;"Pause";;;
+6;"J1";"FH1234S05SH55";1;"FH12-34S-0.5SH_55_";;;
+7;"R2";"R_0603";1;"100";;;
+8;"P8,P7,P6";"MNT-HOLE-3mm1";3;"CONN_1x1";;;
+9;"P1";"PIN_ARRAY_2x1";1;"LED_On/Off_Switch";;;
+10;"P3";"PIN_ARRAY_2x1";1;"LED_Pause_Switch";;;
+11;"SW4";"Pulse_button";1;"Forward";;;
+12;"R1";"R_0603";1;"1k";;;
+13;"SW2";"Pulse_button";1;"Backward";;;
+14;"RV4,RV2,RV8,RV6,RV7,RV9,RV10,RV3,RV5,RV1";"Pot_P16NP103MAB15";10;"10k";;;
+15;"P2";"TFT_3.5''Adafruit_40pin";1;"CONN_1x40-lsts-conn";;;
